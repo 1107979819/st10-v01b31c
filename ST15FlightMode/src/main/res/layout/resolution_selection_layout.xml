@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0xc801">
+    <RadioGroup android:orientation="vertical" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RadioButton android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/rln_item1" android:background="@drawable/common_button" android:layout_width="UNKNOWN_DATA_0x10401" android:layout_height="wrap_content" android:button="0x0" android:text="@string/str_rln_48f" />
+        <RadioButton android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/rln_item2" android:background="@drawable/common_button" android:layout_width="UNKNOWN_DATA_0x10401" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:button="0x0" android:text="@string/str_rln_50f" />
+        <RadioButton android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/rln_item3" android:background="@drawable/common_button" android:layout_width="UNKNOWN_DATA_0x10401" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:button="0x0" android:text="@string/str_rln_60f" />
+    </RadioGroup>
+</RelativeLayout>

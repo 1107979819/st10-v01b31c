@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.yuneec.widget.StatusbarView android:id="@+id/statusbar_of_mode_select" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0006" android:layout_alignParentTop="true" />
+    <RelativeLayout android:background="@drawable/activity_background" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/statusbar_of_mode_select">
+        <RadioGroup android:orientation="horizontal" android:id="@+id/mode_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="66dp" android:layout_marginTop="18dp">
+            <RadioButton android:id="@+id/mode_select_1" android:background="@drawable/mode_select_radio_button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="0x0" />
+            <RadioButton android:id="@+id/mode_select_2" android:background="@drawable/mode_select_radio_button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:button="0x0" />
+            <RadioButton android:id="@+id/mode_select_3" android:background="@drawable/mode_select_radio_button3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-439dp" android:layout_marginTop="140dp" android:button="0x0" />
+            <RadioButton android:id="@+id/mode_select_4" android:background="@drawable/mode_select_radio_button4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="140dp" android:button="0x0" />
+        </RadioGroup>
+    </RelativeLayout>
+</RelativeLayout>

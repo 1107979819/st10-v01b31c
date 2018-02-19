@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/default_font_size" android:textColor="@color/list_header_text_color" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/list_header_text" android:background="@drawable/list_header_background" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:singleLine="true" />

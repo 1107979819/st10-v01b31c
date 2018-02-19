@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="Debug Param">
+    <Preference android:title="Band Select" android:key="key_bandselect" android:summary="Band Select Settings" />
+    <Preference android:title="Manual Assert" android:key="key_manualassert" android:summary="Manual Assert" />
+</PreferenceScreen>

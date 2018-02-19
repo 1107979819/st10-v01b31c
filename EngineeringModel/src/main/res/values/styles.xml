@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="entry_layout">
+        <item>1</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="TextAppearance">
+    </style>
+    <style name="TextAppearance.info_value">
+        <item>14sp</item>
+        <item>0</item>
+    </style>
+    <style name="info_value">
+        <item>@style/TextAppearance.info_value</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="info_label">
+        <item>@style/TextAppearance.info_label</item>
+        <item>4dp</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="TextAppearance.info_label">
+        <item>14sp</item>
+        <item>1</item>
+    </style>
+    <style name="info_layout">
+        <item>1</item>
+        <item>10dp</item>
+        <item>10dp</item>
+        <item>10dp</item>
+        <item>10dp</item>
+        <item>-1</item>
+        <item>-1</item>
+    </style>
+</resources>

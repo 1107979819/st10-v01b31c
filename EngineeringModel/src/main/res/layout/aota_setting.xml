@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="AOTA TEST">
+    <CheckBoxPreference android:persistent="true" android:title="AOTA Enable" android:key="aota_support" />
+    <CheckBoxPreference android:persistent="true" android:title="AOTA User Enable" android:key="aota_user_enable" />
+    <CheckBoxPreference android:persistent="true" android:title="PreloadApp as SystemApp" android:key="authorized_preload" />
+    <Preference android:title="Clear AOTA apk" android:key="aota_clear" />
+</PreferenceScreen>

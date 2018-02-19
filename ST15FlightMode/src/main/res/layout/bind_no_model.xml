@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/activity_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <TextView android:textSize="36sp" android:textColor="@color/default_text_color" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/str_select_model_general" />
+        <Button android:textSize="24sp" android:textStyle="italic" android:id="@+id/go_to_model_select" android:background="@drawable/common_button" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10dp" android:text="@string/str_go_to_model_select" />
+    </LinearLayout>
+</RelativeLayout>

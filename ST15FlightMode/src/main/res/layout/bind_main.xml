@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.yuneec.widget.StatusbarView android:id="@+id/statusbar_of_bind" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0006" android:layout_alignParentTop="true" />
+    <RelativeLayout android:background="@drawable/activity_background" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/statusbar_of_bind"
+        <RelativeLayout android:id="@+id/bind_aircraft_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="5dp">
+            <LinearLayout android:orientation="vertical" android:id="@+id/bind_model_frame" android:background="@drawable/bind_list_backgound" android:layout_width="UNKNOWN_DATA_0x11301" android:layout_height="UNKNOWN_DATA_0x12201">
+                <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/bind_model_title" android:background="@drawable/bind_list_title_background" android:layout_width="UNKNOWN_DATA_0x11301" android:layout_height="UNKNOWN_DATA_0x2601" android:text="@string/str_bind_model" style="@style/text_default_style" />
+                <ListView android:id="@+id/bind_model_list" android:layoutAnimation="@anim/layout_anim_list_item" android:layout_width="UNKNOWN_DATA_0x11301" android:layout_height="UNKNOWN_DATA_0x1" android:choiceMode="singleChoice" android:layout_weight="0.35" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/bind_camera_frame" android:background="@drawable/bind_list_backgound" android:layout_width="UNKNOWN_DATA_0x11301" android:layout_height="UNKNOWN_DATA_0x12201" android:layout_marginLeft="8dp" android:layout_toRightOf="@+id/bind_model_frame">
+                <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/bind_camera_title" android:background="@drawable/bind_list_title_background" android:layout_width="UNKNOWN_DATA_0x11301" android:layout_height="UNKNOWN_DATA_0x2601" android:text="@string/str_bind_camera" style="@style/text_default_style" />
+                <ListView android:id="@+id/bind_camera_list" android:layoutAnimation="@anim/layout_anim_list_item" android:layout_width="UNKNOWN_DATA_0x11301" android:layout_height="UNKNOWN_DATA_0x1" android:choiceMode="singleChoice" android:layout_weight="0.35" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

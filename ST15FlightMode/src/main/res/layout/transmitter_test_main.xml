@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="5dp">
+    <Button android:id="@+id/bt_transmit_test" android:layout_width="UNKNOWN_DATA_0xb401" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginTop="10dp" style="@style/text_medium_style" />
+    <TextView android:id="@+id/current_rate_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/str_rate_text" android:layout_below="@+id/bt_transmit_test" />
+    <Button android:id="@+id/read_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/str_test_read_rate" android:layout_toRightOf="@+id/current_rate_txt" android:layout_alignBaseline="@+id/current_rate_txt" style="@style/text_medium_style" />
+    <TextView android:id="@+id/change_rate_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/str_change_rate_text" android:layout_below="@+id/current_rate_txt" />
+    <EditText android:id="@+id/edit_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/change_rate_txt" android:layout_alignBaseline="@+id/change_rate_txt" android:inputType="textCapCharacters|number|numberSigned|numberDecimal|numberPassword|phone" />
+    <Button android:id="@+id/change_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_test_change_rate" android:layout_toRightOf="@+id/edit_txt" android:layout_alignBaseline="@+id/change_rate_txt" style="@style/text_medium_style" />
+</RelativeLayout>

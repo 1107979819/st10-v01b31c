@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/layout_general_scrollview" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@id/linearlayout_general_main" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chk_general_switch" />
+        <RadioGroup android:orientation="horizontal" android:paddingTop="3dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/rdo_general_on" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/rdo_general_on" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/rdo_general_off" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/rdo_general_off" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/rdo_general_lowpower" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/rdo_general_lowpower" android:layout_weight="1.0" />
+        </RadioGroup>
+        <CheckBox android:id="@id/chk_general_android_switch" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chk_general_android" />
+        <CheckBox android:id="@id/chk_general_modem_switch" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chk_general_modem" />
+        <TextView android:paddingTop="30dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/txv_general_storagelocation" />
+        <RadioGroup android:orientation="horizontal" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/rdo_general_sdcard" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/rdo_general_sdcard" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/rdo_general_nand" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/rdo_general_nand" android:layout_weight="1.0" />
+        </RadioGroup>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/btn_general_dump" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_general_dump" android:layout_weight="1.0" />
+            <Button android:id="@id/btn_general_clearall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_general_clearlog" android:layout_weight="1.0" />
+        </LinearLayout>
+        <CheckBox android:id="@id/chk_general_alwaysrun" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chk_general_alwaysrun" />
+        <CheckBox android:id="@id/chk_general_snapsvc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chk_general_snapsvc" />
+        <CheckBox android:id="@id/chk_general_autoclear" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chk_general_autoclear" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.yuneec.widget.StatusbarView android:id="@+id/statusbar_of_type_select" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0006" android:layout_alignParentTop="true" />
+    <FrameLayout android:id="@+id/type_page_frame" android:background="@drawable/activity_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/statusbar_height">
+        <TextView android:id="@+id/model_select_model_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:text="@string/str_model_type" style="@style/text_large_style" />
+        <com.yuneec.widget.MyViewPager android:id="@+id/view_pager" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="55dp" />
+        <com.yuneec.model_select.PageIndicator android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/pageIndicator_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" />
+    </FrameLayout>
+</FrameLayout>

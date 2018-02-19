@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="def_channelsetting_nor_curve_y_Max">150</integer>
+    <integer name="def_channelsetting_nor_curve_y_Min">-150</integer>
+    <integer name="def_channelsetting_thr_curve_y_Max">125</integer>
+    <integer name="def_channelsetting_thr_curve_y_Min">-25</integer>
+    <integer name="def_camera_type_value">8</integer>
+    <integer name="def_mode_type_value">401</integer>
+    <integer name="def_camera_type_position">2</integer>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tool</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Tool</string>
+    <string name="Engmode">Factory Test</string>
+    <string name="DeveOpt">Developer Option</string>
+    <string name="SystemUpdate">T update</string>
+    <string name="DialPad">Dail</string>
+    <string name="rootUnroot">Root/UnRoot</string>
+    <string name="WifiEUT">WifiTest</string>
+    <string name="LogSetings">AppSettings</string>
+    <string name="verString">V1.0</string>
+    <string name="Controler_Test">Controler Test</string>
+    <string name="apps_manager">APP manage</string>
+</resources>

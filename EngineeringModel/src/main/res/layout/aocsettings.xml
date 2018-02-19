@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="AOC Settings">
+    <CheckBoxPreference android:title="AOC Set" android:key="aoc_active" android:defaultValue="false" android:summaryOn="Active" android:summaryOff="Deactive" />
+    <EditTextPreference android:title="AOC MAX" android:key="aoc_setting" android:summary="please input some data" />
+</PreferenceScreen>

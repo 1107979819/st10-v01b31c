@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clip xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:drawable="@drawable/hwm_img_cursorbar_top" android:clipOrientation="vertical" />

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="5dp">
+    <TextView android:id="@+id/rcd_j1" android:text="@string/str_j1" style="@style/calitration_title_style" />
+    <TextView android:id="@+id/rcd_j1_value" android:layout_toRightOf="@+id/rcd_j1" android:layout_alignTop="@+id/rcd_j1" style="@style/calitration_value_style" />
+    <TextView android:id="@+id/rcd_j1_status" android:text="@string/str_fail" android:layout_toRightOf="@+id/rcd_j1_value" android:layout_alignTop="@+id/rcd_j1" style="@style/calitration_mmm_style" />
+    <TextView android:id="@+id/rcd_j2" android:text="@string/str_j2" android:layout_below="@+id/rcd_j1" style="@style/calitration_title_style" />
+    <TextView android:id="@+id/rcd_j2_value" android:layout_toRightOf="@+id/rcd_j2" android:layout_alignTop="@+id/rcd_j2" style="@style/calitration_value_style" />
+    <TextView android:id="@+id/rcd_j2_status" android:text="@string/str_fail" android:layout_toRightOf="@+id/rcd_j2_value" android:layout_alignTop="@+id/rcd_j2" style="@style/calitration_mmm_style" />
+    <TextView android:id="@+id/rcd_j3" android:text="@string/str_j3" android:layout_below="@+id/rcd_j2" style="@style/calitration_title_style" />
+    <TextView android:id="@+id/rcd_j3_value" android:layout_toRightOf="@+id/rcd_j3" android:layout_alignTop="@+id/rcd_j3" style="@style/calitration_value_style" />
+    <TextView android:id="@+id/rcd_j3_status" android:text="@string/str_fail" android:layout_toRightOf="@+id/rcd_j3_value" android:layout_alignTop="@+id/rcd_j3" style="@style/calitration_mmm_style" />
+    <TextView android:id="@+id/rcd_j4" android:text="@string/str_j4" android:layout_below="@+id/rcd_j3" style="@style/calitration_title_style" />
+    <TextView android:id="@+id/rcd_j4_value" android:layout_toRightOf="@+id/rcd_j4" android:layout_alignTop="@+id/rcd_j4" style="@style/calitration_value_style" />
+    <TextView android:id="@+id/rcd_j4_status" android:text="@string/str_fail" android:layout_toRightOf="@+id/rcd_j4_value" android:layout_alignTop="@+id/rcd_j4" style="@style/calitration_mmm_style" />
+    <TextView android:id="@+id/rcd_t1" android:text="@string/str_t1" android:layout_below="@+id/rcd_j4" style="@style/calitration_title_style" />
+    <TextView android:id="@+id/rcd_t1_value" android:layout_toRightOf="@+id/rcd_t1" android:layout_alignTop="@+id/rcd_t1" style="@style/calitration_value_style" />
+    <TextView android:id="@+id/rcd_t1_status" android:text="@string/str_fail" android:layout_toRightOf="@+id/rcd_t1_value" android:layout_alignTop="@+id/rcd_t1" style="@style/calitration_mmm_style" />
+    <TextView android:id="@+id/rcd_t2" android:text="@string/str_t2" android:layout_below="@+id/rcd_t1" style="@style/calitration_title_style" />
+    <TextView android:id="@+id/rcd_t2_value" android:layout_toRightOf="@+id/rcd_t2" android:layout_alignTop="@+id/rcd_t2" style="@style/calitration_value_style" />
+    <TextView android:id="@+id/rcd_t2_status" android:text="@string/str_fail" android:layout_toRightOf="@+id/rcd_t2_value" android:layout_alignTop="@+id/rcd_t2" style="@style/calitration_mmm_style" />
+    <TextView android:id="@+id/rcd_t3" android:text="@string/str_t3" android:layout_below="@+id/rcd_t2" style="@style/calitration_title_style" />
+    <TextView android:id="@+id/rcd_t3_value" android:layout_toRightOf="@+id/rcd_t3" android:layout_alignTop="@+id/rcd_t3" style="@style/calitration_value_style" />
+    <TextView android:id="@+id/rcd_t3_status" android:text="@string/str_fail" android:layout_toRightOf="@+id/rcd_t3_value" android:layout_alignTop="@+id/rcd_t3" style="@style/calitration_mmm_style" />
+    <TextView android:id="@+id/rcd_t4" android:text="@string/str_t4" android:layout_below="@+id/rcd_t3" style="@style/calitration_title_style" />
+    <TextView android:id="@+id/rcd_t4_value" android:layout_toRightOf="@+id/rcd_t4" android:layout_alignTop="@+id/rcd_t4" style="@style/calitration_value_style" />
+    <TextView android:id="@+id/rcd_t4_status" android:text="@string/str_fail" android:layout_toRightOf="@+id/rcd_t4_value" android:layout_alignTop="@+id/rcd_t4" style="@style/calitration_mmm_style" />
+    <TextView android:id="@+id/rcd_s1" android:text="@string/str_s1" android:layout_toRightOf="@+id/rcd_j1_status" style="@style/calitration_title_style" />
+    <TextView android:id="@+id/rcd_s1_value" android:layout_toRightOf="@+id/rcd_s1" android:layout_alignTop="@+id/rcd_s1" style="@style/calitration_value_s_style" />
+    <TextView android:id="@+id/rcd_s1_status" android:text="@string/str_fail" android:layout_toRightOf="@+id/rcd_s1_value" android:layout_alignTop="@+id/rcd_s1" style="@style/calitration_mmm_style" />
+    <TextView android:id="@+id/rcd_s2" android:text="@string/str_s2" android:layout_toRightOf="@+id/rcd_j2_status" android:layout_below="@+id/rcd_s1" style="@style/calitration_title_style" />
+    <TextView android:id="@+id/rcd_s2_value" android:layout_toRightOf="@+id/rcd_s2" android:layout_alignTop="@+id/rcd_s2" style="@style/calitration_value_s_style" />
+    <TextView android:id="@+id/rcd_s2_status" android:text="@string/str_fail" android:layout_toRightOf="@+id/rcd_s2_value" android:layout_alignTop="@+id/rcd_s2" style="@style/calitration_mmm_style" />
+    <TextView android:id="@+id/rcd_s3" android:text="@string/str_s3" android:layout_toRightOf="@+id/rcd_j3_status" android:layout_below="@+id/rcd_s2" style="@style/calitration_title_style" />
+    <TextView android:id="@+id/rcd_s3_value" android:layout_toRightOf="@+id/rcd_s3" android:layout_alignTop="@+id/rcd_s3" style="@style/calitration_value_s_style" />
+    <TextView android:id="@+id/rcd_s3_status" android:text="@string/str_fail" android:layout_toRightOf="@+id/rcd_s3_value" android:layout_alignTop="@+id/rcd_s3" style="@style/calitration_mmm_style" />
+    <TextView android:id="@+id/rcd_s4" android:text="@string/str_s4" android:layout_toRightOf="@+id/rcd_j4_status" android:layout_below="@+id/rcd_s3" style="@style/calitration_title_style" />
+    <TextView android:id="@+id/rcd_s4_value" android:layout_toRightOf="@+id/rcd_s4" android:layout_alignTop="@+id/rcd_s4" style="@style/calitration_value_s_style" />
+    <TextView android:id="@+id/rcd_s4_status" android:text="@string/str_fail" android:layout_toRightOf="@+id/rcd_s4_value" android:layout_alignTop="@+id/rcd_s4" style="@style/calitration_mmm_style" />
+    <TextView android:id="@+id/rcd_b1" android:text="@string/str_b1" android:layout_toRightOf="@+id/rcd_t2_status" android:layout_below="@+id/rcd_s4" style="@style/calitration_title_style" />
+    <TextView android:id="@+id/rcd_b1_value" android:layout_toRightOf="@+id/rcd_b1" android:layout_alignTop="@+id/rcd_b1" style="@style/calitration_value_s_style" />
+    <TextView android:id="@+id/rcd_b1_status" android:text="@string/str_fail" android:layout_toRightOf="@+id/rcd_b1_value" android:layout_alignTop="@+id/rcd_b1" style="@style/calitration_mmm_style" />
+    <TextView android:id="@+id/rcd_b2" android:text="@string/str_b2" android:layout_toRightOf="@+id/rcd_t3_status" android:layout_below="@+id/rcd_b1" style="@style/calitration_title_style" />
+    <TextView android:id="@+id/rcd_b2_value" android:layout_toRightOf="@+id/rcd_b2" android:layout_alignTop="@+id/rcd_b2" style="@style/calitration_value_s_style" />
+    <TextView android:id="@+id/rcd_b2_status" android:text="@string/str_fail" android:layout_toRightOf="@+id/rcd_b2_value" android:layout_alignTop="@+id/rcd_b2" style="@style/calitration_mmm_style" />
+    <TextView android:id="@+id/rcd_k1" android:text="@string/str_k1" android:layout_toRightOf="@+id/rcd_s1_status" style="@style/calitration_title_style" />
+    <TextView android:id="@+id/rcd_k1_value" android:layout_toRightOf="@+id/rcd_k1" android:layout_alignTop="@+id/rcd_k1" style="@style/calitration_value_s_style" />
+    <TextView android:id="@+id/rcd_k1_status" android:text="@string/str_fail" android:layout_toRightOf="@+id/rcd_k1_value" android:layout_alignTop="@+id/rcd_k1" style="@style/calitration_mmm_style" />
+    <TextView android:id="@+id/rcd_k2" android:text="@string/str_k2" android:layout_toRightOf="@+id/rcd_s2_status" android:layout_below="@+id/rcd_k1" style="@style/calitration_title_style" />
+    <TextView android:id="@+id/rcd_k2_value" android:layout_toRightOf="@+id/rcd_k2" android:layout_alignTop="@+id/rcd_k2" style="@style/calitration_value_s_style" />
+    <TextView android:id="@+id/rcd_k2_status" android:text="@string/str_fail" android:layout_toRightOf="@+id/rcd_k2_value" android:layout_alignTop="@+id/rcd_k2" style="@style/calitration_mmm_style" />
+    <TextView android:id="@+id/rcd_k3" android:text="@string/str_k3" android:layout_toRightOf="@+id/rcd_s3_status" android:layout_below="@+id/rcd_k2" style="@style/calitration_title_style" />
+    <TextView android:id="@+id/rcd_k3_value" android:layout_toRightOf="@+id/rcd_k3" android:layout_alignTop="@+id/rcd_k3" style="@style/calitration_value_s_style" />
+    <TextView android:id="@+id/rcd_k3_status" android:text="@string/str_fail" android:layout_toRightOf="@+id/rcd_k3_value" android:layout_alignTop="@+id/rcd_k3" style="@style/calitration_mmm_style" />
+    <TextView android:id="@+id/rcd_k4" android:text="@string/str_k4" android:layout_toRightOf="@+id/rcd_s4_status" android:layout_below="@+id/rcd_k3" style="@style/calitration_title_style" />
+    <TextView android:id="@+id/rcd_k4_value" android:layout_toRightOf="@+id/rcd_k4" android:layout_alignTop="@+id/rcd_k4" style="@style/calitration_value_s_style" />
+    <TextView android:id="@+id/rcd_k4_status" android:text="@string/str_fail" android:layout_toRightOf="@+id/rcd_k4_value" android:layout_alignTop="@+id/rcd_k4" style="@style/calitration_mmm_style" />
+    <TextView android:id="@+id/rcd_k5" android:text="@string/str_k5" android:layout_toRightOf="@+id/rcd_b1_status" android:layout_below="@+id/rcd_k4" style="@style/calitration_title_style" />
+    <TextView android:id="@+id/rcd_k5_value" android:layout_toRightOf="@+id/rcd_k5" android:layout_alignTop="@+id/rcd_k5" style="@style/calitration_value_s_style" />
+    <TextView android:id="@+id/rcd_k5_status" android:text="@string/str_fail" android:layout_toRightOf="@+id/rcd_k5_value" android:layout_alignTop="@+id/rcd_k5" style="@style/calitration_mmm_style" />
+    <Button android:id="@+id/read_calibration_finish" android:layout_width="UNKNOWN_DATA_0x7801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text="@string/str_finish" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/text_medium_style" />
+    <Button android:id="@+id/read_calibration_reset" android:layout_width="UNKNOWN_DATA_0x7801" android:layout_height="UNKNOWN_DATA_0x2801" android:text="@string/str_reset" android:layout_above="@+id/read_calibration_finish" android:layout_alignRight="@+id/read_calibration_finish" style="@style/text_medium_style" />
+</RelativeLayout>

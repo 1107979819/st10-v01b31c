@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="camera_settings">res/xml/camera_settings.xml</xml>
+    <xml name="cgo2_settings">res/xml/cgo2_settings.xml</xml>
+    <xml name="normal_settings">res/xml/normal_settings.xml</xml>
+</resources>

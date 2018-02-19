@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="photo_gallery">res/menu/photo_gallery.xml</menu>
+    <menu name="photo_gallery_action">res/menu/photo_gallery_action.xml</menu>
+</resources>

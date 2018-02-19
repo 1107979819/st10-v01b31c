@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/camera" android:key="camera_category">
+        <com.yuneec.widget.TextWidgetPreference android:icon="@drawable/video_settings" android:entries="@array/cgo2_resolution" android:title="@string/settings_resolution" android:key="resolution" android:widgetLayout="@layout/preference_widget_text" android:entryValues="@array/cgo2_resolution_value" />
+        <com.yuneec.widget.SwitchWidgetPreference android:icon="@drawable/audio_switch" android:title="@string/settings_audio" android:key="audio" android:widgetLayout="@layout/preference_widget_switch" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/multicopter" android:key="multicopter_category">
+        <com.yuneec.widget.SwitchWidgetPreference android:icon="@drawable/gps" android:title="@string/str_gps" android:key="gps" android:widgetLayout="@layout/preference_widget_switch" />
+        <Preference android:icon="@drawable/calibration" android:title="@string/calibration" android:key="calibration" />
+    </PreferenceCategory>
+</PreferenceScreen>

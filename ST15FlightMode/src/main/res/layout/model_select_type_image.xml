@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/gridView" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="0x106000d" android:horizontalSpacing="5dp" android:verticalSpacing="5dp" android:columnWidth="@dimen/element_frame_width" android:numColumns="UNKNOWN_DATA_0x4" android:layout_centerInParent="true" />

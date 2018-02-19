@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.yuneec.widget.StatusbarView android:id="@+id/statusbar_of_switch_select" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0006" android:layout_alignParentTop="true" />
+    <RelativeLayout android:background="@drawable/activity_background" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/statusbar_of_switch_select">
+        <LinearLayout android:orientation="vertical" android:id="@+id/ll_go_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginTop="5dp">
+            <TextView android:id="@+id/title_go_home" android:text="@string/str_go_home" style="@style/switch_select_text_style" />
+            <com.yuneec.widget.ButtonPicker android:id="@+id/bp_go_home" style="@style/switch_select_button_style" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/ll_aux2" android:layout_below="@+id/ll_go_home" android:layout_alignRight="@+id/ll_go_home" style="@style/switch_select_frame_style">
+            <TextView android:id="@+id/title_aux2" android:text="@string/str_aux2" style="@style/switch_select_text_style" />
+            <com.yuneec.widget.ButtonPicker android:id="@+id/bp_aux2" style="@style/switch_select_button_style" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/ll_aux3" android:layout_below="@+id/ll_aux2" android:layout_alignRight="@+id/ll_aux2" style="@style/switch_select_frame_style">
+            <TextView android:id="@+id/title_aux3" android:text="@string/str_aux3" style="@style/switch_select_text_style" />
+            <com.yuneec.widget.ButtonPicker android:id="@+id/bp_aux3" style="@style/switch_select_button_style" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/ll_aux4" android:layout_below="@+id/ll_aux3" android:layout_alignRight="@+id/ll_aux3" style="@style/switch_select_frame_style">
+            <TextView android:id="@+id/title_aux4" android:text="@string/str_aux4" style="@style/switch_select_text_style" />
+            <com.yuneec.widget.ButtonPicker android:id="@+id/bp_aux4" style="@style/switch_select_button_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ll_aux5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_toRightOf="@+id/ll_go_home" android:layout_alignTop="@+id/ll_go_home">
+            <TextView android:id="@+id/title_aux5" android:text="@string/str_aux5" style="@style/switch_select_text_style" />
+            <com.yuneec.widget.ButtonPicker android:id="@+id/bp_aux5" style="@style/switch_select_button_style" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/ll_aux6" android:layout_below="@+id/ll_aux5" android:layout_alignRight="@+id/ll_aux5" style="@style/switch_select_frame_style">
+            <TextView android:id="@+id/title_aux6" android:text="@string/str_aux6" style="@style/switch_select_text_style" />
+            <com.yuneec.widget.ButtonPicker android:id="@+id/bp_aux6" style="@style/switch_select_button_style" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/ll_aux7" android:layout_below="@+id/ll_aux6" android:layout_alignRight="@+id/ll_aux6" style="@style/switch_select_frame_style">
+            <TextView android:id="@+id/title_aux7" android:text="@string/str_aux7" style="@style/switch_select_text_style" />
+            <com.yuneec.widget.ButtonPicker android:id="@+id/bp_aux7" style="@style/switch_select_button_style" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/ll_aux8" android:layout_below="@+id/ll_aux7" android:layout_alignRight="@+id/ll_aux7" style="@style/switch_select_frame_style">
+            <TextView android:id="@+id/title_aux8" android:text="@string/str_aux8" style="@style/switch_select_text_style" />
+            <com.yuneec.widget.ButtonPicker android:id="@+id/bp_aux8" style="@style/switch_select_button_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ll_aux9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_toRightOf="@+id/ll_aux5" android:layout_alignTop="@+id/ll_aux5">
+            <TextView android:id="@+id/title_aux9" android:text="@string/str_aux9" style="@style/switch_select_text_style" />
+            <com.yuneec.widget.ButtonPicker android:id="@+id/bp_aux9" style="@style/switch_select_button_style" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/ll_aux10" android:layout_below="@+id/ll_aux9" android:layout_alignRight="@+id/ll_aux9" style="@style/switch_select_frame_style">
+            <TextView android:id="@+id/title_aux10" android:text="@string/str_aux10" style="@style/switch_select_text_style" />
+            <com.yuneec.widget.ButtonPicker android:id="@+id/bp_aux10" style="@style/switch_select_button_style" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/ll_aux11" android:layout_below="@+id/ll_aux10" android:layout_alignRight="@+id/ll_aux10" style="@style/switch_select_frame_style">
+            <TextView android:id="@+id/title_aux11" android:text="@string/str_aux11" style="@style/switch_select_text_style" />
+            <com.yuneec.widget.ButtonPicker android:id="@+id/bp_aux11" style="@style/switch_select_button_style" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

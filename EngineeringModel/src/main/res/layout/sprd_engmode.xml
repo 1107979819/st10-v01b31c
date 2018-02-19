@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/verinfo"
+    <PreferenceScreen android:title="@string/verinfo">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.versioninfo" />
+    </PreferenceScreen>
+</PreferenceScreen>

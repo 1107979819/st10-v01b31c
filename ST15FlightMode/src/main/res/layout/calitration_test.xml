@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="20dp">
+    <TextView android:textSize="@dimen/default_font_size" android:textStyle="bold" android:textColor="#ffcc00" android:id="@+id/step_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/step_3_title" />
+    <TextView android:id="@+id/test_k1" android:text="@string/str_k1" android:layout_below="@+id/step_3" style="@style/Calitration_test_text_style" />
+    <TextView android:id="@+id/test_k2" android:text="@string/str_k2" android:layout_toRightOf="@+id/test_k1" android:layout_below="@+id/step_3" style="@style/Calitration_test_text_style" />
+    <TextView android:id="@+id/test_k3" android:text="@string/str_k3" android:layout_toRightOf="@+id/test_k2" android:layout_below="@+id/step_3" style="@style/Calitration_test_text_style" />
+    <TextView android:id="@+id/test_k4" android:text="@string/str_k4" android:layout_toRightOf="@+id/test_k3" android:layout_below="@+id/step_3" style="@style/Calitration_test_text_style" />
+    <TextView android:id="@+id/test_k5" android:text="@string/str_k5" android:layout_toRightOf="@+id/test_k4" android:layout_below="@+id/step_3" style="@style/Calitration_test_text_style" />
+    <TextView android:id="@+id/test_j1" android:text="@string/str_j1" android:layout_below="@+id/test_k1" style="@style/Calitration_test_text_style" />
+    <TextView android:id="@+id/test_j2" android:text="@string/str_j2" android:layout_toRightOf="@+id/test_j1" android:layout_below="@+id/test_k1" style="@style/Calitration_test_text_style" />
+    <TextView android:id="@+id/test_j3" android:text="@string/str_j3" android:layout_toRightOf="@+id/test_j2" android:layout_below="@+id/test_k1" style="@style/Calitration_test_text_style" />
+    <TextView android:id="@+id/test_j4" android:text="@string/str_j4" android:layout_toRightOf="@+id/test_j3" android:layout_below="@+id/test_k1" style="@style/Calitration_test_text_style" />
+    <Button android:id="@+id/page2_next" android:layout_width="UNKNOWN_DATA_0x7801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text="@string/str_next" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/text_medium_style" />
+    <Button android:id="@+id/calibration_btn" android:layout_width="UNKNOWN_DATA_0x7801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginRight="10dp" android:text="@string/str_start" android:layout_toLeftOf="@+id/page2_next" android:layout_alignTop="@+id/page2_next" style="@style/text_medium_style" />
+</RelativeLayout>

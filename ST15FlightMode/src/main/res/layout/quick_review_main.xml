@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.yuneec.widget.StatusbarView android:id="@+id/statusbar_of_quickreview" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0006" />
+    <RelativeLayout android:background="@drawable/activity_background" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <RelativeLayout android:id="@+id/quick_review_opt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_quick_review_play_list" android:layout_centerVertical="true" style="@style/text_large_style" />
+            <Button android:id="@+id/cancel" android:background="@drawable/common_button" android:visibility="invisible" android:text="0x1040000" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/quick_review_button_style" />
+            <Button android:id="@+id/delete" android:background="@drawable/common_button" android:visibility="invisible" android:layout_marginRight="14dp" android:text="@string/str_quick_review_action_delete" android:layout_toLeftOf="@+id/cancel" android:layout_alignParentTop="true" style="@style/quick_review_button_style" />
+            <ToggleButton android:id="@+id/toggle_select" android:background="@drawable/common_button" android:visibility="invisible" android:layout_marginRight="14dp" android:textOn="@string/str_quick_review_action_deselect_all" android:textOff="@string/str_quick_review_action_select_all" android:layout_toLeftOf="@+id/delete" android:layout_alignParentTop="true" style="@style/quick_review_button_style" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:layout_below="@+id/quick_review_opt">
+            <TextView android:textSize="32sp" android:id="@+id/no_video_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_quick_review_no_video_label" android:layout_centerInParent="true" />
+            <ListView android:id="@+id/listView" android:visibility="invisible" android:layoutAnimation="@anim/layout_anim_list_item" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@drawable/video_list_divider" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

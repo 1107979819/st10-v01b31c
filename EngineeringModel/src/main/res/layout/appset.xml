@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="App Settings">
+    <CheckBoxPreference android:title="Call Forward Query" android:key="call_forward_query" android:defaultValue="true" android:summaryOn="Open" android:summaryOff="Close" />
+    <CheckBoxPreference android:title="Emergency Call Retry" android:key="emergency_call_retry" android:defaultValue="false" android:summaryOn="Open" android:summaryOff="Close" />
+    <CheckBoxPreference android:title="ModemDebugPM" android:key="ModemDebugPM" android:defaultValue="false" android:summaryOn="Enable" android:summaryOff="Disable" />
+    <CheckBoxPreference android:title="BT SWITCH" android:key="BTswitch" android:defaultValue="true" android:summaryOn="open" android:summaryOff="close" />
+    <Preference android:title="@string/ua_setting" android:key="ua_setting" android:summary="@string/ua_setting">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.SIMPLECODE" android:targetClass="com.spreadtrum.android.eng.uaagent" />
+    </Preference>
+    <CheckBoxPreference android:title="Browser Log" android:key="browser_log" android:summaryOn="Open" android:summaryOff="Close" />
+    <CheckBoxPreference android:title="Cell Broadcast " android:key="key_cbsmstest" android:defaultValue="false" android:summaryOn="to pdu Mode" android:summaryOff="to text Mode" />
+    <CheckBoxPreference android:title="Auto Answer" android:key="autoanswer_call" android:defaultValue="false" android:summaryOn="Open" android:summaryOff="Close" />
+    <CheckBoxPreference android:title="Enable Vser Gser" android:key="enable_vser_gser" android:defaultValue="true" android:summaryOn="Open" android:summaryOff="Close" />
+    <CheckBoxPreference android:title="Enable Usb Factory Mode" android:key="enable_usb_factory_mode" android:defaultValue="true" android:summaryOn="Open" android:summaryOff="Close" />
+    <Preference android:title="@string/preferred_network_mode_title" android:key="networkselect">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.networkmodeselect" />
+    </Preference>
+    <Preference android:title="Apn Activepdp Filter" android:key="apnfilter">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.ApnActivepdpFilter" />
+    </Preference>
+    <CheckBoxPreference android:title="Modem Reset" android:key="modem_reset" android:defaultValue="false" android:summaryOn="enable" android:summaryOff="disable" />
+    <Preference android:title="Log Settings" android:key="log_setting">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.LogSetting" />
+    </Preference>
+    <Preference android:title="Misc" android:key="misc" android:summary="misc">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.Misc" />
+    </Preference>
+    <CheckBoxPreference android:title="Accelerometer Rotation" android:key="accelerometer_rotation" android:defaultValue="true" android:summaryOn="Open" android:summaryOff="Close" />
+    <Preference android:title="RFMaxPower" android:key="RFMaxPower" android:summary="">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.RFMaxPower" />
+    </Preference>
+    <Preference android:title="AOTA set" android:key="aota">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.AOTASetting" />
+    </Preference>
+</PreferenceScreen>

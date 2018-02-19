@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/osd_fsk4" android:maxLevel="40" />
+    <item android:drawable="@drawable/osd_fsk3" android:maxLevel="60" />
+    <item android:drawable="@drawable/osd_fsk2" android:maxLevel="70" />
+    <item android:drawable="@drawable/osd_fsk1" android:maxLevel="85" />
+    <item android:drawable="@drawable/osd_fsk1" android:maxLevel="200" />
+</level-list>

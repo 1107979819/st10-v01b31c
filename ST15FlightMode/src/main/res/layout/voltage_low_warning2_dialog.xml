@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="UNKNOWN_DATA_0x16801" android:layout_height="UNKNOWN_DATA_0x9601"
+    <RelativeLayout android:background="@drawable/warning_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/warning_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:src="@drawable/warning" />
+        <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/warning_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/str_exit_warning_title" android:layout_toRightOf="@+id/warning_icon" android:layout_alignBottom="@+id/warning_icon" />
+        <ImageView android:id="@+id/big_battery_icon" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x4b01" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:src="@drawable/big_battery" android:layout_below="@+id/warning_icon" />
+        <TextView android:textSize="16sp" android:textColor="#ffffff" android:id="@+id/warning_content" android:layout_width="UNKNOWN_DATA_0x11801" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/str_warning_voltage_low2" android:layout_toRightOf="@+id/big_battery_icon" android:layout_alignTop="@+id/big_battery_icon" />
+    </RelativeLayout>
+</RelativeLayout>

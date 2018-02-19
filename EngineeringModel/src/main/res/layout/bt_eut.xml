@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:textSize="30sp" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bt_eut_switch" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginTop="150dp" android:text="@string/wifi_eut_start" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="22sp" android:id="@+id/signal_test_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:text="@string/str_signal_test_title" />
+    <RadioGroup android:orientation="horizontal" android:id="@+id/changeline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80dp" android:layout_below="@+id/signal_test_title" android:layout_alignLeft="@+id/signal_test_title">
+        <RadioButton android:id="@+id/line1_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Line1" />
+        <RadioButton android:id="@+id/line2_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="Line2" />
+    </RadioGroup>
+    <RelativeLayout android:id="@+id/target_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_below="@+id/changeline">
+        <TextView android:id="@+id/tx_target_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="TX Target:" />
+        <EditText android:id="@+id/tx_signal_target" android:layout_width="UNKNOWN_DATA_0x4101" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="-75" android:maxLength="4" android:layout_toRightOf="@+id/tx_target_txt" android:layout_alignBottom="@+id/tx_target_txt" android:inputType="textCapCharacters|number|numberSigned|numberDecimal|numberPassword|phone" />
+        <EditText android:id="@+id/tx_signal_target_2" android:layout_width="UNKNOWN_DATA_0x4101" android:layout_height="wrap_content" android:layout_marginLeft="35dp" android:text="-75" android:maxLength="4" android:layout_toRightOf="@+id/tx_signal_target" android:layout_alignBottom="@+id/tx_target_txt" android:inputType="textCapCharacters|number|numberSigned|numberDecimal|numberPassword|phone" />
+        <TextView android:id="@+id/rf_target_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="RF Target:" android:layout_below="@+id/tx_signal_target" />
+        <EditText android:id="@+id/rf_signal_target" android:layout_width="UNKNOWN_DATA_0x4101" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="-35" android:maxLength="4" android:layout_toRightOf="@+id/rf_target_txt" android:layout_alignBottom="@+id/rf_target_txt" android:inputType="textCapCharacters|number|numberSigned|numberDecimal|numberPassword|phone" />
+        <EditText android:id="@+id/rf_signal_target_2" android:layout_width="UNKNOWN_DATA_0x4101" android:layout_height="wrap_content" android:layout_marginLeft="35dp" android:text="-35" android:maxLength="4" android:layout_toRightOf="@+id/rf_signal_target" android:layout_alignBottom="@+id/rf_target_txt" android:inputType="textCapCharacters|number|numberSigned|numberDecimal|numberPassword|phone" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/result_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_below="@+id/target_layout" android:layout_alignLeft="@+id/target_layout">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Result:" />
+        <LinearLayout android:orientation="horizontal" android:id="@+id/tx_reslut_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="5dp">
+            <TextView android:id="@+id/tx_signal" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="wrap_content" android:text="@string/str_signal_real" />
+            <TextView android:id="@+id/tx_signal_avg" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/str_signal_avg" />
+            <TextView android:id="@+id/tx_signal_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/rf_result_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="5dp">
+            <TextView android:id="@+id/rf_signal" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="wrap_content" android:text="@string/str_signal_real" />
+            <TextView android:id="@+id/rf_signal_avg" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/str_signal_avg" />
+            <TextView android:id="@+id/rf_signal_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@+id/times_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Times:" android:layout_below="@+id/result_layout" android:layout_alignLeft="@+id/result_layout" />
+    <EditText android:id="@+id/times" android:layout_width="UNKNOWN_DATA_0x4101" android:layout_height="wrap_content" android:text="200" android:maxLength="5" android:layout_toRightOf="@+id/times_txt" android:layout_alignBaseline="@+id/times_txt" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+    <Switch android:id="@+id/signal_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:textOn="Stop" android:textOff="Start" android:text="Switch:" android:layout_toRightOf="@+id/times" android:layout_alignBaseline="@+id/times_txt" />
+</RelativeLayout>

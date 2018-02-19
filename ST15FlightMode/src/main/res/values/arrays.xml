@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="time_style_array">
+        <item>Up</item>
+        <item>Down</item>
+    </array>
+    <array name="time_warning_array">
+        <item>Ring</item>
+        <item>Vibrate</item>
+        <item>Both</item>
+    </array>
+    <array name="time_trigger_array">
+        <item>F Mode</item>
+        <item>Throttle</item>
+    </array>
+    <array name="model_type_array">
+        <item>Multi-copter</item>
+    </array>
+    <array name="throttle_picker_array">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+    </array>
+    <array name="servo_label_1">
+        <item>Thr</item>
+        <item>Ail</item>
+        <item>Ele</item>
+        <item>Rud</item>
+        <item>A01</item>
+        <item>A02</item>
+        <item>A03</item>
+        <item>A04</item>
+        <item>A05</item>
+        <item>A06</item>
+        <item>A07</item>
+        <item>A08</item>
+        <item>A09</item>
+        <item>A10</item>
+        <item>A11</item>
+    </array>
+    <array name="servo_label_2">
+    </array>
+    <array name="mixing_channel_option_items">
+        <item>Edit</item>
+        <item>Deactiavted</item>
+    </array>
+    <array name="bind_wifi_camera_contents_strings">
+        <item>CGO</item>
+        <item>LK58</item>
+        <item>MK58</item>
+    </array>
+    <array name="all_hardware_array_st15">
+        <item>J1</item>
+        <item>J2</item>
+        <item>J3</item>
+        <item>J4</item>
+        <item>K1</item>
+        <item>K2</item>
+        <item>K3</item>
+        <item>K4</item>
+        <item>K5</item>
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+        <item>S4</item>
+        <item>B1</item>
+        <item>B2</item>
+    </array>
+    <array name="all_hardware_array_st10">
+        <item>J1</item>
+        <item>J2</item>
+        <item>J3</item>
+        <item>J4</item>
+        <item>K1</item>
+        <item>K2</item>
+        <item>S1</item>
+        <item>S2</item>
+        <item>B1</item>
+        <item>B2</item>
+    </array>
+    <array name="all_hardware_array_st12">
+        <item>J1</item>
+        <item>J2</item>
+        <item>J3</item>
+        <item>J4</item>
+        <item>K1</item>
+        <item>K2</item>
+        <item>K3</item>
+        <item>S1</item>
+        <item>S2</item>
+        <item>B1</item>
+        <item>B2</item>
+        <item>B3</item>
+    </array>
+    <array name="fmode_opt_0">
+        <item>100,0</item>
+        <item>-100,-100</item>
+        <item>-100,100</item>
+    </array>
+    <array name="fmode_opt_1">
+        <item>100,0</item>
+        <item>0,0</item>
+        <item>-100,100</item>
+    </array>
+    <array name="fmode_opt_2">
+        <item>100,0</item>
+        <item>100,-100</item>
+        <item>-100,100</item>
+    </array>
+    <array name="fmode_opt_3">
+        <item>100,0</item>
+        <item>0,0</item>
+        <item>0,150</item>
+    </array>
+    <array name="cgo2_resolution">
+        <item>1080p-48FPS</item>
+        <item>1080p-50FPS</item>
+        <item>1080p-60FPS</item>
+    </array>
+    <array name="cgo2_resolution_value">
+        <item>48P</item>
+        <item>50P</item>
+        <item>60P</item>
+    </array>
+    <array name="cgo3_resolution">
+        <item>3840x2160F30</item>
+        <item>3840x2160F25</item>
+        <item>2560x1440F30</item>
+        <item>2560x1440F25</item>
+        <item>1920x1080F120</item>
+        <item>1920x1080F60</item>
+        <item>1920x1080F50</item>
+        <item>1920x1080F30</item>
+        <item>1920x1080F25</item>
+    </array>
+    <array name="cgo3_pro_resolution">
+        <item>4096x2160F25</item>
+        <item>4096x2160F24</item>
+        <item>3840x2160F30</item>
+        <item>3840x2160F25</item>
+        <item>3840x2160F24</item>
+        <item>2560x1440F30</item>
+        <item>2560x1440F25</item>
+        <item>2560x1440F24</item>
+        <item>1920x1080F120</item>
+        <item>1920x1080F60</item>
+        <item>1920x1080F50</item>
+        <item>1920x1080F48</item>
+        <item>1920x1080F30</item>
+        <item>1920x1080F25</item>
+        <item>1920x1080F24</item>
+    </array>
+    <array name="photo_format">
+        <item>jpg</item>
+        <item>dng</item>
+    </array>
+    <array name="iq_type">
+        <item>Natural</item>
+        <item>Gorgeous</item>
+        <item>raw</item>
+        <item>night</item>
+    </array>
+    <array name="iq_type_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+    <array name="ev_array">
+        <item>EV-2.0</item>
+        <item>EV-1.5</item>
+        <item>EV-1.0</item>
+        <item>EV-0.5</item>
+        <item>EV0</item>
+        <item>EV0.5</item>
+        <item>EV1.0</item>
+        <item>EV1.5</item>
+        <item>EV2.0</item>
+    </array>
+    <array name="ev_array_value">
+        <item>-2.0</item>
+        <item>-1.5</item>
+        <item>-1.0</item>
+        <item>-0.5</item>
+        <item>0.0</item>
+        <item>0.5</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+    </array>
+    <array name="iso_array">
+        <item>ISO100</item>
+        <item>ISO150</item>
+        <item>ISO200</item>
+        <item>ISO300</item>
+        <item>ISO400</item>
+        <item>ISO600</item>
+        <item>ISO800</item>
+        <item>ISO1600</item>
+        <item>ISO3200</item>
+        <item>ISO6400</item>
+    </array>
+    <array name="iso_array_value">
+        <item>ISO_100</item>
+        <item>ISO_150</item>
+        <item>ISO_200</item>
+        <item>ISO_300</item>
+        <item>ISO_400</item>
+        <item>ISO_600</item>
+        <item>ISO_800</item>
+        <item>ISO_1600</item>
+        <item>ISO_3200</item>
+        <item>ISO_6400</item>
+    </array>
+    <array name="shutter_time">
+        <item>1/30s</item>
+        <item>1/40s</item>
+        <item>1/50s</item>
+        <item>1/60s</item>
+        <item>1/80s</item>
+        <item>1/100s</item>
+        <item>1/125s</item>
+        <item>1/160s</item>
+        <item>1/200s</item>
+        <item>1/250s</item>
+        <item>1/320s</item>
+        <item>1/400s</item>
+        <item>1/500s</item>
+        <item>1/640s</item>
+        <item>1/800s</item>
+        <item>1/1000s</item>
+        <item>1/1300s</item>
+        <item>1/1600s</item>
+        <item>1/2000s</item>
+        <item>1/2500s</item>
+        <item>1/3200s</item>
+        <item>1/4000s</item>
+        <item>1/5000s</item>
+        <item>1/6400s</item>
+        <item>1/8000s</item>
+    </array>
+    <array name="shutter_time_value">
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>125</item>
+        <item>160</item>
+        <item>200</item>
+        <item>250</item>
+        <item>320</item>
+        <item>400</item>
+        <item>500</item>
+        <item>640</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>1300</item>
+        <item>1600</item>
+        <item>2000</item>
+        <item>2500</item>
+        <item>3200</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6400</item>
+        <item>8000</item>
+    </array>
+    <array name="calibration">
+        <item>Compass</item>
+        <item>Accelerometer</item>
+    </array>
+    <array name="cabibration_value">
+        <item>2</item>
+        <item>3</item>
+    </array>
+</resources>

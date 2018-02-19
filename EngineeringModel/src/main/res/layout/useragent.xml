@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText android:configChanges="keyboardHidden|orientation" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/ua_editor" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="1dp" android:layout_marginTop="1dp" android:layout_marginRight="1dp" android:layout_marginBottom="1dp" android:lines="8" android:maxLength="256" android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+    <RadioGroup android:id="@id/ua_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:checkedButton="@id/ENC_WBXML">
+        <RadioButton android:textAppearance="?unknown_attr_ref: 1010041" android:id="@id/default_ua" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ua_default" />
+        <RadioButton android:textAppearance="?unknown_attr_ref: 1010041" android:id="@id/mtk_ua" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ua_mtk" />
+        <RadioButton android:textAppearance="?unknown_attr_ref: 1010041" android:id="@id/samsung_ua" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ua_samsung" />
+        <RadioButton android:textAppearance="?unknown_attr_ref: 1010041" android:id="@id/iphone_ua" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ua_iphone" />
+        <RadioButton android:textAppearance="?unknown_attr_ref: 1010041" android:id="@id/custom_ua" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ua_custom" />
+    </RadioGroup>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp">
+        <Button android:id="@id/btn_ok" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="wrap_content" android:text="@string/ok" />
+        <Button android:id="@id/btn_cancel" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="wrap_content" android:text="@string/cancel" />
+    </LinearLayout>
+</LinearLayout>

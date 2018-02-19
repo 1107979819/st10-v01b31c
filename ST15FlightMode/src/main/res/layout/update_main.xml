@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:id="@+id/tx_frm" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+        <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/choose_tx" style="@style/text_medium_style" />
+        <ListView android:id="@+id/tx_file_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/rf_frm" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_weight="1.0">
+        <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/choose_rf" style="@style/text_medium_style" />
+        <ListView android:id="@+id/rf_file_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_alignParentRight="true">
+        <TextView android:id="@+id/tx_bl_version" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/text_medium_style" />
+        <TextView android:id="@+id/selected_tx_file" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/no_tx" style="@style/text_medium_style" />
+        <Button android:id="@+id/update_tx" android:layout_width="UNKNOWN_DATA_0x7801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginTop="10dp" android:text="@string/update_tx" style="@style/text_medium_style" />
+        <TextView android:id="@+id/selected_rf_file" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/no_rf" style="@style/text_medium_style" />
+        <Button android:id="@+id/update_rf" android:layout_width="UNKNOWN_DATA_0x7801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginTop="10dp" android:text="@string/update_rf" style="@style/text_medium_style" />
+        <Button android:id="@+id/update_finish" android:layout_width="UNKNOWN_DATA_0x7801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="40dp" android:layout_marginTop="60dp" android:text="@string/str_finish" style="@style/text_medium_style" />
+    </LinearLayout>
+</LinearLayout>

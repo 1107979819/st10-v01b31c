@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/app_name">
+    <Preference android:title="Wifi Test" android:key="wifi_test">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.WifiTesting" />
+    </Preference>
+    <Preference android:title="Wifi CMCC">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.WifiCMCCTest" />
+    </Preference>
+    <Preference android:title="Wifi EUT">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.WifiEUT" />
+    </Preference>
+    <Preference android:title="BT EUT">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.BtEUT" />
+    </Preference>
+</PreferenceScreen>

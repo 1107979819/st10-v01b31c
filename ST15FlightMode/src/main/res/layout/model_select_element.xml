@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/element_frame" android:background="@drawable/model_select_image_view_background" android:layout_width="UNKNOWN_DATA_0x7f0d001a" android:layout_height="UNKNOWN_DATA_0x7f0d001b">
+    <ImageView android:id="@+id/image_item" android:layout_width="UNKNOWN_DATA_0x7f0d001c" android:layout_height="UNKNOWN_DATA_0x7f0d001d" android:layout_marginLeft="6dp" android:layout_marginTop="5dp" android:src="@drawable/model_select_missed" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    <TextView android:id="@+id/text_item" android:layout_width="UNKNOWN_DATA_0x5a01" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="4dp" android:text="@string/str_edit_type" android:singleLine="true" android:layout_below="@+id/image_item" style="@style/text_medium_style" />
+</RelativeLayout>

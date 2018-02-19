@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x7f0d0022" android:layout_height="UNKNOWN_DATA_0x7f0d0023">
+    <Button android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/crate_model" android:background="@drawable/common_button" android:layout_width="UNKNOWN_DATA_0x16001" android:layout_height="UNKNOWN_DATA_0x3201" android:text="@string/str_create" style="@style/text_default_style" />
+    <Button android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/import_model" android:background="@drawable/common_button" android:layout_width="UNKNOWN_DATA_0x16001" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginTop="30dp" android:text="@string/str_import" android:layout_below="@+id/crate_model" style="@style/text_default_style" />
+</RelativeLayout>

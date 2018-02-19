@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <anim name="bottom_fade_in">res/anim/bottom_fade_in.xml</anim>
+    <anim name="bottom_fade_out">res/anim/bottom_fade_out.xml</anim>
+    <anim name="layout_anim_list_item">res/anim/layout_anim_list_item.xml</anim>
+    <anim name="layout_anim_slide_left">res/anim/layout_anim_slide_left.xml</anim>
+    <anim name="layout_anim_slide_right">res/anim/layout_anim_slide_right.xml</anim>
+    <anim name="left_fade_in">res/anim/left_fade_in.xml</anim>
+    <anim name="left_fade_out">res/anim/left_fade_out.xml</anim>
+    <anim name="push_up_in">res/anim/push_up_in.xml</anim>
+    <anim name="push_up_out">res/anim/push_up_out.xml</anim>
+    <anim name="right_fade_in">res/anim/right_fade_in.xml</anim>
+    <anim name="right_fade_out">res/anim/right_fade_out.xml</anim>
+    <anim name="slide_in_right">res/anim/slide_in_right.xml</anim>
+    <anim name="top_fade_in">res/anim/top_fade_in.xml</anim>
+    <anim name="top_fade_out">res/anim/top_fade_out.xml</anim>
+    <anim name="type_close_enter">res/anim/type_close_enter.xml</anim>
+    <anim name="type_close_exit">res/anim/type_close_exit.xml</anim>
+    <anim name="type_open_enter">res/anim/type_open_enter.xml</anim>
+    <anim name="type_open_exit">res/anim/type_open_exit.xml</anim>
+</resources>

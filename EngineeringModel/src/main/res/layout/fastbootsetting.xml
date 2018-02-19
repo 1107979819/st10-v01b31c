@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="Fastboot setting">
+    <CheckBoxPreference android:title="fastboot mode" android:key="fastboot_enable" android:defaultValue="true" android:summaryOn="Enable" android:summaryOff="Disable" />
+</PreferenceScreen>

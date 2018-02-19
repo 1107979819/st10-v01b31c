@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="SMS Server">
+    <ListPreference android:entries="@array/smsinfo" android:title="SMS Server" android:key="smsserver" android:dialogTitle="Mode" android:entryValues="@array/smsinfo_value" />
+</PreferenceScreen>

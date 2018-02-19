@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sim1" />
+    <EditText android:id="@id/imei_edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:numeric="integer|signed|decimal" android:phoneNumber="true" />
+    <Button android:id="@id/rbutton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/read_btn" android:layout_below="@id/imei_edit" android:onClick="onClick" />
+    <Button android:id="@id/wbutton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/set_btn" android:layout_below="@id/imei_edit" android:onClick="onClick" />
+    <TextView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xa01" />
+    <TextView android:id="@id/sim2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sim2" />
+    <EditText android:id="@id/imei_edit2" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:numeric="integer|signed|decimal" android:phoneNumber="true" />
+    <Button android:id="@id/rbutton2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/read_btn" android:layout_below="@id/imei_edit" android:onClick="onClick" />
+    <Button android:id="@id/wbutton2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/set_btn" android:layout_below="@id/imei_edit" android:onClick="onClick" />
+</LinearLayout>

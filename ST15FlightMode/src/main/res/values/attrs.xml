@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="borderColor">
+        <item>16</item>
+    </attr>
+    <attr name="borderWidth">
+        <item>64</item>
+    </attr>
+    <attr name="borderPadding">
+        <item>64</item>
+    </attr>
+    <attr name="barColor">
+        <item>16</item>
+    </attr>
+    <attr name="barMinHeight">
+        <item>64</item>
+    </attr>
+    <attr name="barMinWidth">
+        <item>64</item>
+    </attr>
+    <attr name="maxValue">
+        <item>4</item>
+    </attr>
+    <attr name="currentValue">
+        <item>4</item>
+    </attr>
+    <attr name="label_array">
+        <item>1</item>
+    </attr>
+    <attr name="label_index">
+        <item>4</item>
+    </attr>
+    <attr name="item_number">
+        <item>4</item>
+    </attr>
+    <attr name="label">
+        <item>1</item>
+    </attr>
+    <attr name="value">
+        <item>1</item>
+    </attr>
+    <attr name="solidColor">
+        <item>17</item>
+    </attr>
+    <attr name="selectionDivider">
+        <item>1</item>
+    </attr>
+    <attr name="selectionDividerHeight">
+        <item>64</item>
+    </attr>
+    <attr name="selectionDividersDistance">
+        <item>64</item>
+    </attr>
+    <attr name="internalMinHeight">
+        <item>64</item>
+    </attr>
+    <attr name="internalMaxHeight">
+        <item>64</item>
+    </attr>
+    <attr name="internalMinWidth">
+        <item>64</item>
+    </attr>
+    <attr name="internalMaxWidth">
+        <item>64</item>
+    </attr>
+    <attr name="internalLayout">
+        <item>1</item>
+    </attr>
+    <attr name="virtualButtonPressedDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="disableKeyboard">
+        <item>8</item>
+    </attr>
+    <attr name="wrapSelectorWheel">
+        <item>8</item>
+    </attr>
+    <attr name="centerColor">
+        <item>17</item>
+    </attr>
+    <attr name="wheelColor">
+        <item>17</item>
+    </attr>
+    <attr name="textGapPadding">
+        <item>64</item>
+    </attr>
+    <attr name="axisWidth">
+        <item>64</item>
+    </attr>
+    <attr name="axisHeight">
+        <item>64</item>
+    </attr>
+    <attr name="horizontalLine">
+        <item>4</item>
+    </attr>
+    <attr name="longitudinalLine">
+        <item>4</item>
+    </attr>
+    <attr name="coordinateY_Max">
+        <item>4</item>
+    </attr>
+    <attr name="coordinateY_Min">
+        <item>4</item>
+    </attr>
+    <attr name="coordinateDisplayed">
+        <item>8</item>
+    </attr>
+    <attr name="keyPointDisplayed">
+        <item>8</item>
+    </attr>
+    <attr name="stickDisplayed">
+        <item>8</item>
+    </attr>
+    <attr name="isSwitch">
+        <item>8</item>
+    </attr>
+</resources>

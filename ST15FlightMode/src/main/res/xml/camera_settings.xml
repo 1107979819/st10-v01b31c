@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/camera" android:key="camera_category">
+        <com.yuneec.widget.TextWidgetPreference android:icon="@drawable/video_settings" android:entries="@array/cgo3_pro_resolution" android:title="@string/settings_resolution" android:key="resolution" android:widgetLayout="@layout/preference_widget_text" android:entryValues="@array/cgo3_pro_resolution" />
+        <com.yuneec.widget.SwitchWidgetPreference android:icon="@drawable/audio_switch" android:title="@string/settings_audio" android:key="audio" android:widgetLayout="@layout/preference_widget_switch" />
+        <com.yuneec.widget.TextWidgetPreference android:icon="@drawable/photo_mode" android:entries="@array/photo_format" android:title="@string/settings_photo_format" android:key="photo_format" android:widgetLayout="@layout/preference_widget_text" android:entryValues="@array/photo_format" />
+        <com.yuneec.widget.TextWidgetPreference android:icon="@drawable/image_style" android:entries="@array/iq_type" android:title="@string/settings_iq_type" android:key="iq_type" android:widgetLayout="@layout/preference_widget_text" android:entryValues="@array/iq_type_value" />
+        <com.yuneec.flightmode15.CameraResetDialogPreference android:icon="@drawable/camera_reset" android:title="@string/settings_reset" android:key="reset" android:dialogTitle="@string/settings_reset" android:dialogMessage="Reset to default?" android:positiveButtonText="@string/str_ok" android:negativeButtonText="@string/str_cancel" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/multicopter" android:key="multicopter_category">
+        <com.yuneec.widget.SwitchWidgetPreference android:icon="@drawable/gps" android:title="@string/str_gps" android:key="gps" android:widgetLayout="@layout/preference_widget_switch" />
+        <Preference android:icon="@drawable/calibration" android:title="@string/calibration" android:key="calibration" />
+    </PreferenceCategory>
+</PreferenceScreen>

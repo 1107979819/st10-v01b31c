@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="1" android:versionName="1.0" package="com.spreadtrum.android.eng">
+    <application android:label="@string/app_name" android:icon="@drawable/icon">
+        <activity android:label="@string/app_name" android:name=".EngModeAllActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name=".engineeringmodel" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/ua_setting" android:name="uaagent" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SIMPLECODE" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/profiletitle" android:name="uaprofile" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/layer1monitor" android:name="Layer1Monitor" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/verinfo" android:name="versioninfo" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/mmcinfo" android:name="MmcInfo" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="OTA test mode" android:name="OTA_mode" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/netinfo" android:name="netinfo" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/upasetting" android:name="UPAActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/verinfo" android:name="phonetest" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/verinfo" android:name="wifitest" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/verinfo" android:name="BtEUT" android:screenOrientation="portrait" android:configChanges="keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/wifi_testing_label" android:name="WifiTesting" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/wifi_eut_label" android:name="WifiEUT" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/verinfo" android:name="phoneinfo" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="lock freq" android:name="lockfreq" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="lock cell" android:name="lockcell" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="unlock freq" android:name="unlockfreq" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="cell info" android:name="cellinfo" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="attach info" android:name="autoattachatpoweron" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="SMS Server" android:name="smsserver" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="PDP Active" android:name="pdpactive" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="AOC Settings" android:name="aocsettings" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="GPRS data send" android:name="sendgprsdata" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="UPLMN" android:name="uplmnsettings" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="PS Version" android:name="psverinfo" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Log Setting" android:name="LogSetting" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Write IMEI" android:name="SetIMEI" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Set Register" android:name="CPRegister" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="App Settings" android:name="AppSettings" android:screenOrientation="portrait" />
+        <activity android:label="RFMaxPower" android:name="RFMaxPower" android:screenOrientation="portrait" />
+        <activity android:label="Phase Check" android:name="PhaseCheck" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.spreadtrum.android.eng.PhaseCheck" />
+            </intent-filter>
+        </activity>
+        <activity android:label="LOG Switch" android:name="logswitch" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Network mode" android:name="networkmodeselect" android:process="com.android.phone" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="apn filter" android:name="ApnActivepdpFilter" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Sim" android:name="SimActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Build number" android:name="VersionInfoCustomer" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SIMPLECODE" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Build number" android:name="BuildNumber" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SAMPLECODE" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Flash Block Info" android:name="FlashBlockInfo" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SAMPLECODE" />
+            </intent-filter>
+        </activity>
+        <activity android:label="ADC Calibrate Info" android:name="adcCalibrateInfo" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SAMPLECODE" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Eng83780Activity" android:screenOrientation="portrait" android:windowSoftInputMode="stateUnchanged|stateHidden|stateAlwaysHidden|stateAlwaysVisible" />
+        <activity android:name="CMMBSettings" android:screenOrientation="portrait" />
+        <activity android:name="FastbootSettings" android:screenOrientation="portrait" />
+        <activity android:name="Eng83781Activity" android:screenOrientation="portrait" android:windowSoftInputMode="stateUnchanged|stateHidden|stateAlwaysHidden|stateAlwaysVisible" />
+        <activity android:name="WifiCMCCTest" android:screenOrientation="portrait" />
+        <activity android:name="Misc" android:screenOrientation="portrait" />
+        <activity android:label="@string/choose_sub" android:name=".EngMobileSimChoose" android:configChanges="keyboardHidden|orientation" />
+        <receiver android:name="EngTestingBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE" />
+                <data android:scheme="android_secret_code" android:host="83780" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE" />
+                <data android:scheme="android_secret_code" android:host="83781" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="EngModeBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.sprd.intent.action.FASTBOOT_BOOT_COMPLETED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="EngModeAllBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE" />
+                <data android:scheme="android_secret_code" android:host="83783" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="AutoAnswerReceiver">
+            <intent-filter>
+                <action android:name="com.sprd.intent.action.FASTBOOT_BOOT_COMPLETED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="MMCReceiver">
+            <intent-filter>
+                <action android:name="com.sprd.intent.action.FASTBOOT_BOOT_COMPLETED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="BootReceiver">
+            <intent-filter>
+                <action android:name="com.sprd.intent.action.FASTBOOT_BOOT_COMPLETED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <service android:name="AutoAnswerService" android:enabled="true" />
+        <activity android:label="Video Type" android:name="VideoType" android:screenOrientation="portrait" />
+        <activity android:label="Debug Param" android:name="DebugParam" android:screenOrientation="portrait" />
+        <activity android:label="Text Info" android:name="TextInfo" android:screenOrientation="portrait" />
+        <activity android:label="HSUPA Setting" android:name="HsupaSetting" android:screenOrientation="portrait" />
+        <activity android:label="@string/label_slogui" android:name=".LogSettingSlogUITabHostActivity" android:launchMode="singleInstance" android:configChanges="locale|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".SlogUIServerReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.SIM_STATE_CHANGED" />
+                <action android:name="android.intent.action.SIM_STATE_CHANGED0" />
+                <action android:name="android.intent.action.SIM_STATE_CHANGED1" />
+            </intent-filter>
+        </receiver>
+        <activity android:name=".SlogUISnapAction" android:taskAffinity="" android:excludeFromRecents="true" android:noHistory="true" />
+        <activity android:name=".SlogUILowStorage" android:excludeFromRecents="true" android:noHistory="true" />
+        <activity android:name=".LogSettingSlogUICommonControl" android:configChanges="locale|orientation|screenSize" />
+        <activity android:name=".LogSettingSlogUIAndroidPage" android:configChanges="locale|orientation|screenSize" />
+        <activity android:name=".LogSettingSlogUIModemPage" android:configChanges="locale|orientation|screenSize" />
+        <service android:name=".SlogService" />
+        <service android:name=".SlogUISnapService" />
+        <service android:name=".EngInstallHelperService" />
+        <provider android:name="com.spreadtrum.android.eng.SlogProvider" android:exported="false" android:authorities="com.spreadtrum.android.eng">
+            <grant-uri-permission android:pathPattern=".*" />
+        </provider>
+        <activity android:name=".EngInstallActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AOTASetting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="15" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+</manifest>

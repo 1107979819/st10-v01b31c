@@ -1,0 +1,40 @@
+package com.yuneec.uartcontroller;
+
+public class MissionData {
+    public static final int ACTION_REQUEST_CHECK = 7;
+    public static final int ACTION_REQUEST_EXIT = 4;
+    public static final int ACTION_REQUEST_GET = 5;
+    public static final int ACTION_REQUEST_PAUSE = 2;
+    public static final int ACTION_REQUEST_RESUME = 3;
+    public static final int ACTION_REQUEST_SET = 6;
+    public static final int ACTION_REQUEST_START_AUTO = 0;
+    public static final int ACTION_REQUEST_START_MANUAL = 1;
+    public static final int ACTION_RESULT_ERR_ACCESS_DENIED = 2;
+    public static final int ACTION_RESULT_ERR_COORDINATE_VALID = 4;
+    public static final int ACTION_RESULT_ERR_FAIL = 1;
+    public static final int ACTION_RESULT_ERR_MISSION_TYPE_ERROR = 80;
+    public static final int ACTION_RESULT_ERR_NOT_SUPPORTED = 3;
+    public static final int ACTION_RESULT_ERR_OCCUPITED = 81;
+    public static final int ACTION_RESULT_ERR_SETTING_NO_WAYPOINT = 83;
+    public static final int ACTION_RESULT_ERR_SETTING_STEP_ERROR = 82;
+    public static final int ACTION_RESULT_OK = 0;
+    public static final int ACTION_SONAR_CONFIG_OFF = 0;
+    public static final int ACTION_SONAR_CONFIG_ON = 1;
+    public static final int ACTION_STATUS_EXIT = 4;
+    public static final int ACTION_STATUS_IDLE = 0;
+    public static final int ACTION_STATUS_RUNNING = 2;
+    public static final int ACTION_STATUS_SETTING = 1;
+    public static final int ACTION_STATUS_STOPPED = 3;
+    public static final int ACTION_TYPE_FEEDBACK = 2;
+    public static final int ACTION_TYPE_REQUEST = 0;
+    public static final int ACTION_TYPE_RESPONSE = 1;
+    public static final int ACTION_TYPE_SETTING_CCC = 3;
+    public static final int ACTION_TYPE_SETTING_ROI = 4;
+    public static final int ACTION_TYPE_SONAR_CONFIG = 5;
+    public static final int AUTO_CURVECABLECAM = 3;
+    public static final int AUTO_CYCLE = 4;
+    public static final int AUTO_JOUR = 1;
+    public static final int AUTO_NONE = 0;
+    public static final int AUTO_ROI = 2;
+    public static final int AUTO_WAYPOINT = 5;
+}

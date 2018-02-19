@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="HSUPA setting">
+    <CheckBoxPreference android:title="HSUPA setting" android:key="hsupa_setting" android:summaryOn="Open" android:summaryOff="Close" />
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.appunite.ffmpeg.FFmpegSurfaceView android:id="@id/video_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <Button android:id="@id/play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="play" />
+    <Button android:id="@id/stop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="stop" android:layout_alignParentRight="true" />
+    <Button android:id="@id/is_playing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Playing?" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <ToggleButton android:id="@id/record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="record" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <Button android:id="@id/is_recording" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="is_recording?" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

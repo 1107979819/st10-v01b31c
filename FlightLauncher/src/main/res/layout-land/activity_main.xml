@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/tools" tools:background="@drawable/bg_land" tools:layout_width="match_parent" tools:layout_height="match_parent" tools:context=".MainActivity" />

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:textSize="20sp" android:id="@id/wifi_eut_switch" android:paddingLeft="35dp" android:paddingRight="35dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/wifi_eut_start" />
+        </LinearLayout>
+        <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:stretchColumns="1">
+            <TableRow android:visibility="gone">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eut_str_band" />
+                <Spinner android:id="@id/wifi_eut_band" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp">
+                <TextView android:textSize="18sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eut_str_channel" />
+                <Spinner android:id="@id/wifi_eut_channel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" />
+            </TableRow>
+            <TableRow android:visibility="gone">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eut_str_sFactor" />
+                <EditText android:id="@id/wifi_eut_sfactor" android:layout_width="UNKNOWN_DATA_0xfa01" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:visibility="gone">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eut_str_frequency" />
+                <EditText android:id="@id/wifi_eut_frequency" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:visibility="gone">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eut_str_frequencyOffset" />
+                <EditText android:id="@id/wifi_eut_frequencyOffset" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:visibility="gone">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eut_str_amplitude" />
+                <Spinner android:id="@id/wifi_eut_amplitude" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:layout_marginTop="15dp">
+                <TextView android:textSize="18sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eut_str_rate" />
+                <Spinner android:id="@id/wifi_eut_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" />
+            </TableRow>
+            <TableRow android:layout_marginTop="15dp">
+                <TextView android:textSize="15sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eut_str_powerLevel" />
+                <Spinner android:id="@id/wifi_eut_powerLevel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" />
+            </TableRow>
+            <TableRow android:visibility="gone">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eut_str_length" />
+                <EditText android:id="@id/wifi_eut_length" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:visibility="gone">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eut_str_enablelbCsTestMode" />
+                <CheckBox android:id="@id/wifi_eut_enablelbCsTestMode" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:visibility="gone">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eut_str_interval" />
+                <EditText android:id="@id/wifi_eut_interval" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:visibility="gone">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eut_str_destMacAddr" />
+                <EditText android:id="@id/wifi_eut_destMacAddr" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:visibility="gone">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eut_str_preamble" />
+                <Spinner android:id="@id/wifi_eut_preamble" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:visibility="gone">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eut_str_frequency" />
+                <EditText android:id="@id/wifi_eut_frequency_rx" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:visibility="gone">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eut_str_filteringEnable" />
+                <CheckBox android:id="@id/wifi_eut_filteringEnable" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+        </TableLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:textSize="18sp" android:id="@id/wifi_eut_cw" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/wifi_eut_str_cw" />
+            <Button android:textSize="18sp" android:id="@id/wifi_eut_tx" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/wifi_eut_str_tx" />
+            <Button android:textSize="18sp" android:id="@id/wifi_eut_rx" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/wifi_eut_str_rx" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

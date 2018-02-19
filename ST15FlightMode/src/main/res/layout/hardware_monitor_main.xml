@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.yuneec.widget.StatusbarView android:id="@+id/statusbar_of_hardware_monitor" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0006" android:layout_alignParentTop="true" />
+    <RelativeLayout android:background="@drawable/activity_background" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/statusbar_of_hardware_monitor"
+        <RelativeLayout android:id="@+id/h_k2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_centerHorizontal="true">
+            <TextView android:id="@+id/hw_k2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22dp" android:text="@string/str_k2" style="@style/text_medium_style" />
+            <com.yuneec.widget.KnobsView android:id="@+id/hm_k2" android:layout_width="UNKNOWN_DATA_0x7f0d0025" android:layout_height="wrap_content" android:layout_below="@+id/hw_k2" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_k1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginRight="-10dp" android:layout_toLeftOf="@+id/h_k2">
+            <TextView android:id="@+id/hw_k1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22dp" android:text="@string/str_k1" style="@style/text_medium_style" />
+            <com.yuneec.widget.KnobsView android:id="@+id/hm_k1" android:layout_width="UNKNOWN_DATA_0x7f0d0025" android:layout_height="wrap_content" android:layout_below="@+id/hw_k1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_s2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginRight="-10dp" android:layout_toLeftOf="@+id/h_k1">
+            <TextView android:id="@+id/hw_s2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="@string/str_s2" style="@style/text_medium_style" />
+            <com.yuneec.widget.TwoSpeedButtonView android:id="@+id/hm_s2" android:layout_width="UNKNOWN_DATA_0x7f0d0027" android:layout_height="wrap_content" android:layout_below="@+id/hw_s2" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_s1" android:layout_toLeftOf="@+id/h_s2" style="@style/hardware_monitor_left_frame_style">
+            <TextView android:id="@+id/hw_s1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="@string/str_s1" style="@style/text_medium_style" />
+            <com.yuneec.widget.ThreeSpeedSwitchView android:id="@+id/hm_s1" android:layout_width="UNKNOWN_DATA_0x7f0d0027" android:layout_height="wrap_content" android:layout_below="@+id/hw_s1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_b1" android:layout_toLeftOf="@+id/h_s1" style="@style/hardware_monitor_left_frame_style">
+            <TextView android:id="@+id/hw_b1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="@string/str_b1" style="@style/text_medium_style" />
+            <com.yuneec.widget.TwoSpeedButtonView android:id="@+id/hm_b1" android:layout_width="UNKNOWN_DATA_0x7f0d0027" android:layout_height="wrap_content" android:layout_below="@+id/hw_b1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_k4" android:layout_toLeftOf="@+id/h_b1" style="@style/hardware_monitor_left_frame_style">
+            <TextView android:id="@+id/hw_k4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/str_k4" style="@style/text_medium_style" />
+            <com.yuneec.widget.SlideVernierView android:id="@+id/hm_k4" android:layout_width="UNKNOWN_DATA_0x7f0d002b" android:layout_height="wrap_content" android:layout_below="@+id/hw_k4" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_k3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-10dp" android:layout_marginTop="20dp" android:layout_toRightOf="@+id/h_k2">
+            <TextView android:id="@+id/hw_k3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22dp" android:text="@string/str_k3" style="@style/text_medium_style" />
+            <com.yuneec.widget.KnobsView android:id="@+id/hm_k3" android:layout_width="UNKNOWN_DATA_0x7f0d0025" android:layout_height="wrap_content" android:layout_below="@+id/hw_k3" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_s3" android:layout_toRightOf="@+id/h_k3" style="@style/hardware_monitor_frame_style">
+            <TextView android:id="@+id/hw_s3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="@string/str_s3" style="@style/text_medium_style" />
+            <com.yuneec.widget.TwoSpeedButtonView android:id="@+id/hm_s3" android:layout_width="UNKNOWN_DATA_0x7f0d0027" android:layout_height="wrap_content" android:layout_below="@+id/hw_s3" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_s4" android:layout_toRightOf="@+id/h_s3" style="@style/hardware_monitor_frame_style">
+            <TextView android:id="@+id/hw_s4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="@string/str_s4" style="@style/text_medium_style" />
+            <com.yuneec.widget.ThreeSpeedSwitchView android:id="@+id/hm_s4" android:layout_width="UNKNOWN_DATA_0x7f0d0027" android:layout_height="wrap_content" android:layout_below="@+id/hw_s4" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_b2" android:layout_toRightOf="@+id/h_s4" style="@style/hardware_monitor_frame_style">
+            <TextView android:id="@+id/hw_b2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="@string/str_b2" style="@style/text_medium_style" />
+            <com.yuneec.widget.TwoSpeedButtonView android:id="@+id/hm_b2" android:layout_width="UNKNOWN_DATA_0x7f0d0027" android:layout_height="wrap_content" android:layout_below="@+id/hw_b2" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_k5" android:layout_toRightOf="@+id/h_b2" style="@style/hardware_monitor_frame_style">
+            <TextView android:id="@+id/hw_k5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/str_k5" style="@style/text_medium_style" />
+            <com.yuneec.widget.SlideVernierView android:id="@+id/hm_k5" android:layout_width="UNKNOWN_DATA_0x7f0d002b" android:layout_height="wrap_content" android:layout_below="@+id/hw_k5" />
+        </RelativeLayout>
+        <ImageView android:id="@+id/h_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="110dp" android:src="@drawable/hardware_monitor_iamge_marked" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@+id/h_t2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-110dp" android:layout_marginRight="-10dp" android:layout_toLeftOf="@+id/h_info" android:layout_below="@+id/h_info">
+            <TextView android:id="@+id/hw_t2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/str_t2" style="@style/text_medium_style" />
+            <com.yuneec.widget.TrimVernierView android:id="@+id/hm_t2" android:layout_width="UNKNOWN_DATA_0x7f0d0029" android:layout_height="wrap_content" android:layout_below="@+id/hw_t2" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_t1" android:layout_toLeftOf="@+id/h_t2" android:layout_below="@+id/h_info" style="@style/hardware_monitor_left_below_frame_style">
+            <TextView android:id="@+id/hw_t1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/str_t1" style="@style/text_medium_style" />
+            <com.yuneec.widget.TrimVernierView android:id="@+id/hm_t1" android:layout_width="UNKNOWN_DATA_0x7f0d0029" android:layout_height="wrap_content" android:layout_below="@+id/hw_t1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_j2" android:layout_toLeftOf="@+id/h_t1" android:layout_below="@+id/h_info" style="@style/hardware_monitor_left_below_frame_style">
+            <TextView android:id="@+id/hw_j2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/str_j2" style="@style/text_medium_style" />
+            <com.yuneec.widget.VernierView android:id="@+id/hm_j2" android:layout_width="UNKNOWN_DATA_0x7f0d0029" android:layout_height="wrap_content" android:layout_below="@+id/hw_j2" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_j1" android:layout_toLeftOf="@+id/h_j2" android:layout_below="@+id/h_info" style="@style/hardware_monitor_left_below_frame_style">
+            <TextView android:id="@+id/hw_j1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/str_j1" style="@style/text_medium_style" />
+            <com.yuneec.widget.VernierView android:id="@+id/hm_j1" android:layout_width="UNKNOWN_DATA_0x7f0d0029" android:layout_height="wrap_content" android:layout_below="@+id/hw_j1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_t3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="-110dp" android:layout_toRightOf="@+id/h_info" android:layout_below="@+id/h_info">
+            <TextView android:id="@+id/hw_t3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/str_t3" style="@style/text_medium_style" />
+            <com.yuneec.widget.TrimVernierView android:id="@+id/hm_t3" android:layout_width="UNKNOWN_DATA_0x7f0d0029" android:layout_height="wrap_content" android:layout_below="@+id/hw_t3" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_t4" android:layout_toRightOf="@+id/h_t3" android:layout_below="@+id/h_info" style="@style/hardware_monitor_below_frame_style">
+            <TextView android:id="@+id/hw_t4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/str_t4" style="@style/text_medium_style" />
+            <com.yuneec.widget.TrimVernierView android:id="@+id/hm_t4" android:layout_width="UNKNOWN_DATA_0x7f0d0029" android:layout_height="wrap_content" android:layout_below="@+id/hw_t4" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_j3" android:layout_toRightOf="@+id/h_t4" android:layout_below="@+id/h_info" style="@style/hardware_monitor_below_frame_style">
+            <TextView android:id="@+id/hw_j3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/str_j3" style="@style/text_medium_style" />
+            <com.yuneec.widget.VernierView android:id="@+id/hm_j3" android:layout_width="UNKNOWN_DATA_0x7f0d0029" android:layout_height="wrap_content" android:layout_below="@+id/hw_j3" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_j4" android:layout_toRightOf="@+id/h_j3" android:layout_below="@+id/h_info" style="@style/hardware_monitor_below_frame_style">
+            <TextView android:id="@+id/hw_j4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/str_j4" style="@style/text_medium_style" />
+            <com.yuneec.widget.VernierView android:id="@+id/hm_j4" android:layout_width="UNKNOWN_DATA_0x7f0d0029" android:layout_height="wrap_content" android:layout_below="@+id/hw_j4" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

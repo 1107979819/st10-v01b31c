@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="bg">res/drawable-hdpi/bg.png</drawable>
+    <drawable name="bg_land">res/drawable-hdpi/bg_land.png</drawable>
+    <drawable name="ic_launcher">res/drawable-hdpi/ic_launcher.png</drawable>
+</resources>

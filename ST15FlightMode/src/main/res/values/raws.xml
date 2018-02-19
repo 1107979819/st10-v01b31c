@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="camera_click">res/raw/camera_click.ogg</raw>
+    <raw name="camera_click2">res/raw/camera_click2.mp3</raw>
+    <raw name="gestures">res/raw/gestures</raw>
+    <raw name="picker_dida">res/raw/picker_dida.ogg</raw>
+    <raw name="video_record">res/raw/video_record.ogg</raw>
+    <raw name="warning_beep_1">res/raw/warning_beep_1.ogg</raw>
+</resources>

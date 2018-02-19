@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="CMMB Set">
+    <CheckBoxPreference android:title="Test Mode" android:key="test_mode" android:defaultValue="false" android:summaryOn="Open" android:summaryOff="Close" />
+    <CheckBoxPreference android:title="Wire Test Mode" android:key="wire_test_mode" android:summaryOn="Open" android:summaryOff="Close" />
+</PreferenceScreen>

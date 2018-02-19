@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.yuneec.widget.StatusbarView android:id="@+id/statusbar_of_hardware_monitor" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0006" android:layout_alignParentTop="true" />
+    <RelativeLayout android:background="@drawable/activity_background" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/statusbar_of_hardware_monitor">
+        <ImageView android:id="@+id/h_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hardware_monitor_iamge_marked_st12" android:layout_centerInParent="true" />
+        <RelativeLayout android:id="@+id/h_s1" android:layout_toLeftOf="@+id/h_info" style="@style/hardware_monitor_left_frame_style">
+            <TextView android:id="@+id/hw_s1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/str_s1" style="@style/text_medium_style" />
+            <com.yuneec.widget.TwoSpeedSwitchView android:id="@+id/hm_s1" android:layout_width="UNKNOWN_DATA_0x7f0d0027" android:layout_height="wrap_content" android:layout_below="@+id/hw_s1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_b3" android:layout_toLeftOf="@+id/h_s1" style="@style/hardware_monitor_left_frame_style">
+            <TextView android:id="@+id/hw_b3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/str_b3" style="@style/text_medium_style" />
+            <com.yuneec.widget.TwoSpeedButtonView android:id="@+id/hm_b3" android:layout_width="UNKNOWN_DATA_0x7f0d0027" android:layout_height="wrap_content" android:layout_below="@+id/hw_b3" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_b1" android:layout_toLeftOf="@+id/h_b3" style="@style/hardware_monitor_left_frame_style">
+            <TextView android:id="@+id/hw_b1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/str_b1" style="@style/text_medium_style" />
+            <com.yuneec.widget.TwoSpeedButtonView android:id="@+id/hm_b1" android:layout_width="UNKNOWN_DATA_0x7f0d0027" android:layout_height="wrap_content" android:layout_below="@+id/hw_b1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_k1" android:layout_toLeftOf="@+id/h_b1" style="@style/hardware_monitor_left_frame_style">
+            <TextView android:id="@+id/hw_k1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/str_k1" style="@style/text_medium_style" />
+            <com.yuneec.widget.SlideVernierView android:id="@+id/hm_k1" android:layout_width="UNKNOWN_DATA_0x7f0d002b" android:layout_height="wrap_content" android:layout_below="@+id/hw_k1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_k3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-20dp" android:layout_marginTop="10dp" android:layout_toRightOf="@+id/h_info">
+            <TextView android:id="@+id/hw_k3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/str_k3" style="@style/text_medium_style" />
+            <com.yuneec.widget.KnobsView android:id="@+id/hm_k3" android:layout_width="UNKNOWN_DATA_0x7f0d0025" android:layout_height="wrap_content" android:layout_below="@+id/hw_k3" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_s2" android:layout_toRightOf="@+id/h_k3" style="@style/hardware_monitor_frame_style">
+            <TextView android:id="@+id/hw_s2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/str_s2" style="@style/text_medium_style" />
+            <com.yuneec.widget.ThreeSpeedSwitchView android:id="@+id/hm_s2" android:layout_width="UNKNOWN_DATA_0x7f0d0027" android:layout_height="wrap_content" android:layout_below="@+id/hw_s2" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_b2" android:layout_toRightOf="@+id/h_s2" style="@style/hardware_monitor_frame_style">
+            <TextView android:id="@+id/hw_b2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/str_b2" style="@style/text_medium_style" />
+            <com.yuneec.widget.TwoSpeedButtonView android:id="@+id/hm_b2" android:layout_width="UNKNOWN_DATA_0x7f0d0027" android:layout_height="wrap_content" android:layout_below="@+id/hw_b2" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_k2" android:layout_toRightOf="@+id/h_b2" style="@style/hardware_monitor_frame_style">
+            <TextView android:id="@+id/hw_k2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/str_k2" style="@style/text_medium_style" />
+            <com.yuneec.widget.SlideVernierView android:id="@+id/hm_k2" android:layout_width="UNKNOWN_DATA_0x7f0d002b" android:layout_height="wrap_content" android:layout_below="@+id/hw_k2" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_j2" android:layout_toLeftOf="@+id/h_info" android:layout_below="@+id/h_info" style="@style/st10hardware_monitor_below_frame_style">
+            <TextView android:id="@+id/hw_j2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/str_j2" style="@style/text_medium_style" />
+            <com.yuneec.widget.VernierView android:id="@+id/hm_j2" android:layout_width="UNKNOWN_DATA_0x7f0d0029" android:layout_height="wrap_content" android:layout_below="@+id/hw_j2" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_j1" android:layout_toLeftOf="@+id/h_j2" android:layout_below="@+id/h_info" style="@style/st10hardware_monitor_below_frame_style">
+            <TextView android:id="@+id/hw_j1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/str_j1" style="@style/text_medium_style" />
+            <com.yuneec.widget.VernierView android:id="@+id/hm_j1" android:layout_width="UNKNOWN_DATA_0x7f0d0029" android:layout_height="wrap_content" android:layout_below="@+id/hw_j1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_j3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="-60dp" android:layout_toRightOf="@+id/h_info" android:layout_below="@+id/h_info">
+            <TextView android:id="@+id/hw_j3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/str_j3" style="@style/text_medium_style" />
+            <com.yuneec.widget.VernierView android:id="@+id/hm_j3" android:layout_width="UNKNOWN_DATA_0x7f0d0029" android:layout_height="wrap_content" android:layout_below="@+id/hw_j3" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/h_j4" android:layout_toRightOf="@+id/h_j3" android:layout_below="@+id/h_info" style="@style/st10hardware_monitor_below_frame_style">
+            <TextView android:id="@+id/hw_j4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/str_j4" style="@style/text_medium_style" />
+            <com.yuneec.widget.VernierView android:id="@+id/hm_j4" android:layout_width="UNKNOWN_DATA_0x7f0d0029" android:layout_height="wrap_content" android:layout_below="@+id/hw_j4" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/left_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="200dp">
+            <TextView android:textColor="@color/color_orange" android:id="@+id/k1_value_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_k1" style="@style/text_medium_style" />
+            <TextView android:textColor="@color/color_orange" android:id="@+id/j1_value_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_j1" android:layout_below="@+id/k1_value_title" android:layout_alignLeft="@+id/k1_value_title" style="@style/text_medium_style" />
+            <TextView android:textColor="@color/color_orange" android:id="@+id/j2_value_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_j2" android:layout_below="@+id/j1_value_title" android:layout_alignLeft="@+id/j1_value_title" style="@style/text_medium_style" />
+            <TextView android:id="@+id/k1_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_toRightOf="@+id/k1_value_title" android:layout_alignTop="@+id/k1_value_title" style="@style/text_medium_style" />
+            <TextView android:id="@+id/j1_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/k1_value" android:layout_alignTop="@+id/j1_value_title" style="@style/text_medium_style" />
+            <TextView android:id="@+id/j2_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/k1_value" android:layout_alignTop="@+id/j2_value_title" style="@style/text_medium_style" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/right_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="500dp" android:layout_marginTop="200dp">
+            <TextView android:textColor="@color/color_orange" android:id="@+id/k2_value_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_k2" style="@style/text_medium_style" />
+            <TextView android:textColor="@color/color_orange" android:id="@+id/j3_value_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_j3" android:layout_below="@+id/k2_value_title" android:layout_alignLeft="@+id/k2_value_title" style="@style/text_medium_style" />
+            <TextView android:textColor="@color/color_orange" android:id="@+id/j4_value_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_j4" android:layout_below="@+id/j3_value_title" android:layout_alignLeft="@+id/k2_value_title" style="@style/text_medium_style" />
+            <TextView android:textColor="@color/color_orange" android:id="@+id/k3_value_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_k3" android:layout_below="@+id/j4_value_title" android:layout_alignLeft="@+id/k2_value_title" style="@style/text_medium_style" />
+            <TextView android:id="@+id/k2_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_toRightOf="@+id/k2_value_title" android:layout_alignTop="@+id/k2_value_title" style="@style/text_medium_style" />
+            <TextView android:id="@+id/j3_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/k2_value" android:layout_alignTop="@+id/j3_value_title" style="@style/text_medium_style" />
+            <TextView android:id="@+id/j4_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/k2_value" android:layout_alignTop="@+id/j4_value_title" style="@style/text_medium_style" />
+            <TextView android:id="@+id/k3_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/k2_value" android:layout_alignTop="@+id/k3_value_title" style="@style/text_medium_style" />
+        </RelativeLayout>
+        <Button android:id="@+id/hw_clear" android:layout_marginBottom="10dp" android:text="@string/str_reset" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/model_select_edit_button" />
+    </RelativeLayout>
+</RelativeLayout>

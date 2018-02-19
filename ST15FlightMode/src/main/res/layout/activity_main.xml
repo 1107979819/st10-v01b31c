@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@id/bind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bind" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <Button android:id="@id/read" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="read" android:layout_below="@id/bind" android:layout_alignParentLeft="true" />
+    <Button android:id="@id/bindAModel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="bindAModel" android:layout_below="@id/read" android:layout_alignParentLeft="true" />
+    <Button android:id="@id/finishBind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="finishBind" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <Button android:id="@id/testBit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Test Bit" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <ListView android:id="@id/listView1" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="wrap_content" android:layout_toRightOf="@id/bindAModel" android:layout_alignParentTop="true" />
+    <SeekBar android:id="@id/seekBar1" android:layout_width="UNKNOWN_DATA_0x1f401" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <SeekBar android:id="@id/seekBar2" android:layout_width="UNKNOWN_DATA_0x1f401" android:layout_height="wrap_content" android:layout_below="@id/seekBar1" android:layout_centerHorizontal="true" />
+    <SeekBar android:id="@id/seekBar3" android:layout_width="UNKNOWN_DATA_0x1f401" android:layout_height="wrap_content" android:layout_below="@id/seekBar2" android:layout_centerHorizontal="true" />
+    <SeekBar android:id="@id/seekBar4" android:layout_width="UNKNOWN_DATA_0x1f401" android:layout_height="wrap_content" android:layout_below="@id/seekBar3" android:layout_centerHorizontal="true" />
+    <SeekBar android:id="@id/seekBar5" android:layout_width="UNKNOWN_DATA_0x1f401" android:layout_height="wrap_content" android:layout_below="@id/seekBar4" android:layout_centerHorizontal="true" />
+    <SeekBar android:id="@id/seekBar6" android:layout_width="UNKNOWN_DATA_0x1f401" android:layout_height="wrap_content" android:layout_below="@id/seekBar5" android:layout_centerHorizontal="true" />
+    <SeekBar android:id="@id/seekBar7" android:layout_width="UNKNOWN_DATA_0x1f401" android:layout_height="wrap_content" android:layout_below="@id/seekBar6" android:layout_centerHorizontal="true" />
+    <SeekBar android:id="@id/seekBar8" android:layout_width="UNKNOWN_DATA_0x1f401" android:layout_height="wrap_content" android:layout_below="@id/seekBar7" android:layout_centerHorizontal="true" />
+    <ToggleButton android:id="@id/buttonStartCali" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="37dp" android:textOn="FinishCalibration" android:textOff="StartCalibration" android:layout_below="@id/finishBind" android:layout_alignParentLeft="true" />
+    <Button android:id="@id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ch1" android:layout_below="@id/seekBar8" android:layout_alignLeft="@id/seekBar8" />
+    <Button android:id="@id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ch2" android:layout_below="@id/button1" android:layout_alignLeft="@id/seekBar8" />
+    <Button android:id="@id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ch3" android:layout_below="@id/button2" android:layout_alignLeft="@id/seekBar8" />
+    <Button android:id="@id/button4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ch4" android:layout_below="@id/button3" android:layout_alignLeft="@id/seekBar8" />
+    <ToggleButton android:id="@id/tog_run" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:textOn="exit run" android:textOff="enter run" android:text="run" android:layout_alignTop="@id/button3" android:layout_alignParentLeft="true" />
+</RelativeLayout>

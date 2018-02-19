@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <interpolator name="accelerate_cubic">res/interpolator/accelerate_cubic.xml</interpolator>
+    <interpolator name="accelerate_decelerate">res/interpolator/accelerate_decelerate.xml</interpolator>
+    <interpolator name="accelerate_quad">res/interpolator/accelerate_quad.xml</interpolator>
+    <interpolator name="accelerate_quint">res/interpolator/accelerate_quint.xml</interpolator>
+    <interpolator name="decelerate_cubic">res/interpolator/decelerate_cubic.xml</interpolator>
+    <interpolator name="decelerate_quad">res/interpolator/decelerate_quad.xml</interpolator>
+    <interpolator name="decelerate_quint">res/interpolator/decelerate_quint.xml</interpolator>
+</resources>

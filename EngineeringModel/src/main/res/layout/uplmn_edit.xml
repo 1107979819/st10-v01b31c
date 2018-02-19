@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/uplmn_index" style="?unknown_attr_ref: 1010041" />
+    <EditText android:enabled="false" android:id="@id/index_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="2" android:numeric="integer|signed|decimal" android:phoneNumber="true" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/uplmn_id" style="?unknown_attr_ref: 1010041" />
+    <EditText android:id="@id/id_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="6" android:numeric="integer|signed|decimal" android:phoneNumber="true" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/uplmn_type" style="?unknown_attr_ref: 1010041" />
+    <EditText android:id="@id/type_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="1" android:numeric="integer|signed|decimal" android:phoneNumber="true" />
+</LinearLayout>

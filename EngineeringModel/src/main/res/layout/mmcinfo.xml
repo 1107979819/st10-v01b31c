@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/mmc0" android:layout_width="match_parent" android:layout_height="wrap_content" android:title="mmc0" />
+        <TextView android:id="@id/mmc0crc" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:id="@id/mmc0timeout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:id="@id/mmc1" android:layout_width="match_parent" android:layout_height="wrap_content" android:title="mmc1" />
+        <TextView android:id="@id/mmc1crc" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:id="@id/mmc1timeout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:id="@id/mmc2" android:layout_width="match_parent" android:layout_height="wrap_content" android:title="mmc2" />
+        <TextView android:id="@id/mmc2crc" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:id="@id/mmc2timeout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:id="@id/mmc3" android:layout_width="match_parent" android:layout_height="wrap_content" android:title="mmc3" />
+        <TextView android:id="@id/mmc3crc" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:id="@id/mmc3timeout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

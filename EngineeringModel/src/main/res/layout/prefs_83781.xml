@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/app_name">
+    <Preference android:title="Version Info" android:key="apply_version">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.versioninfo" />
+    </Preference>
+    <Preference android:title="Net Info" android:key="apply_netinfo">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.netinfo" />
+    </Preference>
+    <Preference android:title="ADC Calibrate Info" android:key="apply_adcinfo">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.SAMPLECODE" android:targetClass="com.spreadtrum.android.eng.adcCalibrateInfo" />
+    </Preference>
+    <PreferenceScreen android:title="Para Set" android:key="key_paraset">
+        <Preference android:title="Debug Param" android:key="key_debugparam">
+            <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.DebugParam" />
+        </Preference>
+        <PreferenceScreen android:title="RF Param" android:key="key_rfparam">
+            <CheckBoxPreference android:title="Send Power" android:key="key_sendpower" android:defaultValue="false" android:summaryOn="Open" android:summaryOff="Close" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Sleep Mode">
+            <CheckBoxPreference android:title="Sleep Mode" android:key="key_sleepmode" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Auto Poweron">
+            <CheckBoxPreference android:title="Auto Poweron" android:key="key_autopoweron" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+        </PreferenceScreen>
+        <Preference android:title="GPRS" android:key="key_gprs" android:summary="press the item active GPRS" />
+        <Preference android:title="A+F UPA" android:key="afupa">
+            <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.UPAActivity" />
+        </Preference>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="App Settings" android:summary="App Settings">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.AppSettings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="IQ Mode">
+        <CheckBoxPreference android:title="IQ Mode" android:key="IQMode_value" android:defaultValue="false" android:summaryOn="Open" android:summaryOff="Close" />
+        <PreferenceScreen android:title="IQ DATA" android:dependency="IQMode_value">
+            <CheckBoxPreference android:title="IQ DATA" android:key="IQdata_switch" android:defaultValue="false" android:summaryOn="Open" android:summaryOff="Close" />
+            <PreferenceScreen android:title="Settings" android:dependency="IQdata_switch">
+                <ListPreference android:entries="@array/iqinfo" android:title="Mode Settings" android:key="IQmode_value" android:dialogTitle="Mode" android:entryValues="@array/iqinfo_value" />
+                <CheckBoxPreference android:title="auto start after poweron" android:key="IQstart_poweron" android:defaultValue="false" android:summaryOn="Open" android:summaryOff="Close" />
+            </PreferenceScreen>
+        </PreferenceScreen>
+    </PreferenceScreen>
+    <Preference android:title="Phase Check" android:key="Phase Check">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.PhaseCheck" />
+    </Preference>
+    <Preference android:title="Build number" android:key="sprd_verinfo">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.SIMPLECODE" android:targetClass="com.spreadtrum.android.eng.BuildNumber" />
+    </Preference>
+    <Preference android:title="Flash Block Info" android:key="sprd_flashblockinfo">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.SIMPLECODE" android:targetClass="com.spreadtrum.android.eng.FlashBlockInfo" />
+    </Preference>
+    <Preference android:title="CMMB Settings" android:key="CMMB_Settings">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.CMMBSettings" />
+    </Preference>
+    <Preference android:title="MMC information" android:key="mmcinfo">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.MmcInfo" />
+    </Preference>
+    <Preference android:title="Set IMEI" android:key="set_imei">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.SetIMEI" />
+    </Preference>
+    <PreferenceScreen android:title="OTA Test Setting">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.OTA_mode" />
+    </PreferenceScreen>
+    <Preference android:title="Fastboot_Settings" android:key="Fastboot_Settings">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.FastbootSettings" />
+    </Preference>
+</PreferenceScreen>

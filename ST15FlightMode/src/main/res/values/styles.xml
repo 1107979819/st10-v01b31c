@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SeekerStyle">
+    </style>
+    <style name="AppBaseTheme">
+    </style>
+    <style name="AppBaseTheme">
+    </style>
+    <style name="AppBaseTheme">
+    </style>
+    <style name="AppTheme">
+    </style>
+    <style name="text_default_style">
+        <item>@dimen/default_font_size</item>
+        <item>@color/default_text_color</item>
+    </style>
+    <style name="text_large_style">
+        <item>@dimen/large_font_size</item>
+        <item>@color/default_text_color</item>
+    </style>
+    <style name="text_medium_style">
+        <item>@dimen/medium_font_size</item>
+        <item>@color/default_text_color</item>
+    </style>
+    <style name="text_small_style">
+        <item>@dimen/small_font_size</item>
+        <item>@color/default_text_color</item>
+    </style>
+    <style name="common_button_style">
+        <item>@dimen/default_font_size</item>
+        <item>@color/text_selected_color</item>
+        <item>11</item>
+        <item>@drawable/common_button</item>
+    </style>
+    <style name="specially_ch_btn_style">
+        <item>@dimen/small_font_size</item>
+        <item>@color/text_selected_color</item>
+        <item>11</item>
+        <item>@drawable/common_button</item>
+    </style>
+    <style name="dialog_style">
+        <item>@drawable/dialog_bg</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>11</item>
+    </style>
+    <style name="base_dialog_style">
+        <item>@drawable/dialog_bg</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="mainscreen_button">
+        <item>@dimen/small_font_size</item>
+        <item>@color/mainscreen_button_text_color</item>
+    </style>
+    <style name="mainscreen_button.toggle">
+        <item>@drawable/mainscreen_toggle_button</item>
+        <item>@dimen/mainscreen_toggle_width</item>
+        <item>@dimen/mainscreen_toggle_height</item>
+    </style>
+    <style name="mainscreen_button.toggle.left">
+        <item>8dp</item>
+        <item>true</item>
+    </style>
+    <style name="mainscreen_button.toggle.right">
+        <item>8dp</item>
+        <item>true</item>
+    </style>
+    <style name="mainscreen_button.buttonbar">
+        <item>@drawable/mainscreen_buttonbar</item>
+        <item>8dp</item>
+        <item>@dimen/mainscreen_buttonbar_width</item>
+        <item>@dimen/mainscreen_buttonbar_height</item>
+    </style>
+    <style name="mainscreen_button.buttonbar.bottom">
+        <item>6dp</item>
+        <item>true</item>
+    </style>
+    <style name="mainscreen_indicator">
+        <item>@dimen/mainscreen_indicator_width</item>
+        <item>@dimen/mainscreen_indicator_height</item>
+    </style>
+    <style name="mainscreen_indicator.left">
+        <item>6dp</item>
+        <item>true</item>
+    </style>
+    <style name="mainscreen_indicator.right">
+        <item>6dp</item>
+        <item>true</item>
+    </style>
+    <style name="mainscreen_text">
+        <item>@dimen/medium_font_size</item>
+        <item>@color/normal_text_color</item>
+    </style>
+    <style name="mainscreen_text.shadow">
+        <item>@color/default_shadow_color</item>
+        <item>@string/osd_shadow_dx</item>
+        <item>@string/osd_shadow_dy</item>
+        <item>@string/osd_shadow_radius</item>
+    </style>
+    <style name="mainscreen_dialog_title_text">
+        <item>1</item>
+        <item>2.0</item>
+        <item>2.0</item>
+        <item>2.0</item>
+    </style>
+    <style name="mainscreen_dialog">
+        <item>@drawable/mainscreen_dialog_bg</item>
+    </style>
+    <style name="main_list_text_style">
+        <item>@dimen/large_font_size</item>
+        <item>@color/text_selected_color</item>
+    </style>
+    <style name="bind_button_style">
+        <item>@dimen/default_font_size</item>
+        <item>@color/text_selected_color</item>
+        <item>@drawable/common_button</item>
+        <item>20dp</item>
+        <item>120dp</item>
+        <item>40dp</item>
+        <item>true</item>
+    </style>
+    <style name="cs_button_style">
+        <item>@dimen/default_font_size</item>
+        <item>@color/text_selected_color</item>
+        <item>@drawable/common_button</item>
+        <item>64dp</item>
+        <item>54dp</item>
+    </style>
+    <style name="cs_servo_text_style">
+        <item>@dimen/default_font_size</item>
+        <item>@color/text_selected_color</item>
+        <item>10</item>
+        <item>-2</item>
+        <item>0dp</item>
+        <item>1.0</item>
+    </style>
+    <style name="model_select_edit_button">
+        <item>@dimen/medium_font_size</item>
+        <item>@color/text_selected_color</item>
+        <item>@drawable/common_button</item>
+        <item>125dp</item>
+        <item>40dp</item>
+        <item>30dp</item>
+    </style>
+    <style name="quick_review_button_style">
+        <item>@dimen/default_font_size</item>
+        <item>@color/default_text_color</item>
+        <item>120dp</item>
+        <item>40dp</item>
+    </style>
+    <style name="switch_select_text_style">
+        <item>@dimen/default_font_size</item>
+        <item>@color/default_text_color</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="switch_select_button_style">
+        <item>142dp</item>
+        <item>44dp</item>
+    </style>
+    <style name="switch_select_frame_style">
+        <item>1</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>5dp</item>
+    </style>
+    <style name="ImageViewTheme">
+        <item>@style/OverlayActionBarTheme</item>
+        <item>true</item>
+    </style>
+    <style name="OverlayActionBarTheme">
+        <item>@drawable/actionbar_overlay_bg</item>
+    </style>
+    <style name="Calitration_test_text_style">
+        <item>@dimen/default_font_size</item>
+        <item>1</item>
+        <item>?unknown_ref: 1060000</item>
+        <item>11</item>
+        <item>#960000</item>
+        <item>60dp</item>
+        <item>60dp</item>
+        <item>10dp</item>
+        <item>10dp</item>
+    </style>
+    <style name="calitration_title_style">
+        <item>@dimen/default_font_size</item>
+        <item>1</item>
+        <item>#ffcc00</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>10dp</item>
+        <item>10dp</item>
+    </style>
+    <style name="calitration_value_style">
+        <item>@dimen/default_font_size</item>
+        <item>1</item>
+        <item>#ffcc00</item>
+        <item>5</item>
+        <item>80dp</item>
+        <item>-2</item>
+        <item>10dp</item>
+    </style>
+    <style name="calitration_value_s_style">
+        <item>@dimen/default_font_size</item>
+        <item>1</item>
+        <item>#ffcc00</item>
+        <item>5</item>
+        <item>50dp</item>
+        <item>-2</item>
+        <item>10dp</item>
+    </style>
+    <style name="calitration_mmm_style">
+        <item>@dimen/small_font_size</item>
+        <item>1</item>
+        <item>#ffcc00</item>
+        <item>11</item>
+        <item>?unknown_ref: 1060017</item>
+        <item>80dp</item>
+        <item>30dp</item>
+        <item>10dp</item>
+    </style>
+    <style name="hardware_monitor_text_style">
+        <item>@dimen/medium_font_size</item>
+        <item>@color/text_selected_color</item>
+        <item>-2</item>
+    </style>
+    <style name="hardware_monitor_frame_style">
+        <item>-2</item>
+        <item>-2</item>
+        <item>3dp</item>
+        <item>10dp</item>
+    </style>
+    <style name="hardware_monitor_left_frame_style">
+        <item>-2</item>
+        <item>-2</item>
+        <item>10dp</item>
+        <item>3dp</item>
+    </style>
+    <style name="hardware_monitor_below_frame_style">
+        <item>-2</item>
+        <item>-2</item>
+        <item>6dp</item>
+        <item>-110dp</item>
+    </style>
+    <style name="hardware_monitor_left_below_frame_style">
+        <item>-2</item>
+        <item>-2</item>
+        <item>-110dp</item>
+        <item>6dp</item>
+    </style>
+    <style name="st10hardware_monitor_below_frame_style">
+        <item>-2</item>
+        <item>-2</item>
+        <item>6dp</item>
+        <item>-60dp</item>
+    </style>
+    <style name="st10hardware_monitor_left_below_frame_style">
+        <item>-2</item>
+        <item>-2</item>
+        <item>-60dp</item>
+        <item>6dp</item>
+    </style>
+    <style name="warning_dialog_style">
+        <item>@color/transparent</item>
+        <item>true</item>
+        <item>?unknown_ref: 1030003</item>
+    </style>
+</resources>

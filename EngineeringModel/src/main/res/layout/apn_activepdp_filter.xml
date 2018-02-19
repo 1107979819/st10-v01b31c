@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="ApnActivepdpFilterSetting">
+    <Preference android:persistent="false" android:title="NetworkConnection Info " android:key="networkinfo" />
+    <PreferenceCategory android:persistent="false" android:title="apn activepdp filter setting" android:key="ApnpdpFilterSelect">
+        <CheckBoxPreference android:title="APN_TYPE_ALL" android:key="all" android:summary="" />
+        <CheckBoxPreference android:title="APN_TYPE_DEFAULT" android:key="default" android:summary="" />
+        <CheckBoxPreference android:title="APN_TYPE_MMS" android:key="mms" android:summary="" />
+        <CheckBoxPreference android:title="APN_TYPE_SUPL" android:key="supl" android:summary="" />
+        <CheckBoxPreference android:title="APN_TYPE_DUN" android:key="dun" android:summary="" />
+        <CheckBoxPreference android:title="APN_TYPE_HIPRI" android:key="hipri" android:summary="" />
+    </PreferenceCategory>
+</PreferenceScreen>

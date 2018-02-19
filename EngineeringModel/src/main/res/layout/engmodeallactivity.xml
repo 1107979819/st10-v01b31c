@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/app_name"
+    <PreferenceScreen android:title="PS related" android:summary="More information"
+        <PreferenceScreen android:title="Lock frequency">
+            <Preference android:title="Lock frequency" android:key="lockfreq">
+                <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.lockfreq" />
+            </Preference>
+            <Preference android:title="Lock cell" android:key="lockcell">
+                <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.lockcell" />
+            </Preference>
+            <Preference android:title="Unlock frequency" android:key="unlockfreq">
+                <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.unlockfreq" />
+            </Preference>
+        </PreferenceScreen>
+        <Preference android:title="Auto attach at power on" android:key="autoattachatpoweron">
+            <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.autoattachatpoweron" />
+        </Preference>
+        <Preference android:title="AOC setting" android:key="aoc_value">
+            <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.aocsettings" />
+        </Preference>
+        <Preference android:title="PDP Active/Deactive">
+            <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.pdpactive" />
+        </Preference>
+        <Preference android:title="GPRS data send" android:key="gprsdata_value">
+            <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.sendgprsdata" />
+        </Preference>
+        <Preference android:title="SMS Server">
+            <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.smsserver" />
+        </Preference>
+        <Preference android:title="PS VER setting" android:key="psver_value">
+            <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.psverinfo" />
+        </Preference>
+        <Preference android:title="LOG Switch" android:key="log_switch">
+            <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.logswitch" />
+        </Preference>
+        <Preference android:title="HSUPA setting" android:key="hsupa_setting">
+            <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.HsupaSetting" />
+        </Preference>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="VT setting">
+        <Preference android:title="Video type" android:key="video_type">
+            <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.VideoType" />
+        </Preference>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Qos switch">
+        <CheckBoxPreference android:title="Qos switch" android:key="Qos_switch" android:defaultValue="false" android:summaryOn="Open" android:summaryOff="Close" />
+    </PreferenceScreen>
+</PreferenceScreen>

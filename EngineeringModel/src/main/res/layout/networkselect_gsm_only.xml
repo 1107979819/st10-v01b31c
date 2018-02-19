@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/preferred_network_mode_choices_gsm_only" android:title="@string/preferred_network_mode_title" android:key="preferred_network_mode_key" android:summary="@string/preferred_network_mode_summary" android:dialogTitle="@string/preferred_network_mode_dialogtitle" android:entryValues="@array/preferred_network_mode_values_gsm_only" />
+</PreferenceScreen>

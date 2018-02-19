@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/text_default_style" />
+    <Button android:id="@+id/left_btn" android:background="@drawable/button_subtract" android:layout_width="UNKNOWN_DATA_0x2201" android:layout_height="UNKNOWN_DATA_0x2001" android:layout_marginLeft="3dp" />
+    <SeekBar android:id="@+id/seekbar" android:layout_width="UNKNOWN_DATA_0x7f0d0018" android:layout_height="wrap_content" />
+    <Button android:id="@+id/right_btn" android:background="@drawable/button_plus" android:layout_width="UNKNOWN_DATA_0x2201" android:layout_height="UNKNOWN_DATA_0x2001" />
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ota_mode_array">
+        <item>体验模式</item>
+        <item>入网模式</item>
+        <item>现网模式</item>
+        <item>射频模式</item>
+        <item>调试模式</item>
+    </array>
+</resources>

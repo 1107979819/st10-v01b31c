@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/app_name">
+    <CheckBoxPreference android:persistent="false" android:title="Anritsu Test" android:key="anritsu_test" android:defaultValue="false" />
+    <CheckBoxPreference android:persistent="false" android:title="Non-anritsu Test" android:key="non_anritsu_test" android:defaultValue="false" />
+    <CheckBoxPreference android:persistent="false" android:title="Run Test" android:key="run_test" android:defaultValue="false" />
+</PreferenceScreen>

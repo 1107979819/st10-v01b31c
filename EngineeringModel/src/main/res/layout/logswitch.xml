@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="LOG Switch">
+    <CheckBoxPreference android:title="Integrity Protection" android:key="integrity_set" android:defaultValue="false" android:summaryOn="open" android:summaryOff="close" />
+    <CheckBoxPreference android:title="FBand Support" android:key="fband_set" android:defaultValue="false" android:summaryOn="open" android:summaryOff="close" />
+    <CheckBoxPreference android:title="CAP Log" android:key="cap_log" android:defaultValue="false" android:summaryOn="open" android:summaryOff="close" />
+</PreferenceScreen>

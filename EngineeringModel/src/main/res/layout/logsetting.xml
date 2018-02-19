@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="Log Setting">
+    <CheckBoxPreference android:enabled="false" android:title="Android log" android:key="android_log_enable" android:defaultValue="true" android:summaryOn="android log enable" android:summaryOff="android log disable" android:soundEffectsEnabled="false" />
+    <CheckBoxPreference android:title="Application" android:key="applog_enable" android:defaultValue="true" android:summaryOn="Logcat enable" android:summaryOff="Logcat disable" />
+    <CheckBoxPreference android:title="Modem" android:key="modemlog_enable" android:defaultValue="true" android:summaryOn="Modem log enable" android:summaryOff="Modem log disable" />
+    <CheckBoxPreference android:title="Kernel Dump" android:key="kdump_enable" android:defaultValue="false" android:summaryOn="enable kernel dump" android:summaryOff="disable kernel dump" />
+    <ListPreference android:persistent="true" android:enabled="false" android:entries="@array/modem_arm_log_entries" android:title="Modem ARM log" android:key="modem_arm_log" android:defaultValue="@string/modem_arm_log_entries_values_default" android:entryValues="@array/modem_arm_log_values" />
+    <ListPreference android:entries="@array/modem_dsp_log_entries" android:title="DSP options" android:key="dsplog_enable" android:defaultValue="@string/modem_dsp_log_entries_values_default" android:entryValues="@array/modem_dsp_log_values" />
+    <Preference android:title="Slog UI" android:key="slogui">
+        <intent android:targetPackage="com.spreadtrum.android.eng" android:action="android.intent.action.MAIN" android:targetClass="com.spreadtrum.android.eng.LogSettingSlogUITabHostActivity" />
+    </Preference>
+</PreferenceScreen>
